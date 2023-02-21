@@ -1,0 +1,22 @@
+uuid: 7e7d7b64-00f8-4663-9f48-ab421c80f803
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - studio_store
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: studio_store_messages
+theme: studio_store
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
