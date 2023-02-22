@@ -1,0 +1,26 @@
+uuid: 565cbcba-472c-4c78-afd9-a5a031829feb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.client_section.field_body
+    - field.field.node.client_section.field_para
+    - field.field.node.client_section.field_title
+    - node.type.client_section
+  module:
+    - user
+id: node.client_section.teaser
+targetEntityType: node
+bundle: client_section
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_body: true
+  field_para: true
+  field_title: true

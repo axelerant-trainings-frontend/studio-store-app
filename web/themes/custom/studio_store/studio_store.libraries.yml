@@ -5,12 +5,12 @@ global:
   js:
     dist/components/organisms/navigation/nav.js: {}
 
-header:
-  css:
-    theme:
-      dist/components/organisms/scss/header.css: {}
-
-# tailwind:
+# header:
 #   css:
 #     theme:
-#       dist/components/tailwind.css: {}
+#       dist/components/organisms/scss/header.css: {}
+
+tailwind:
+  css:
+    theme:
+      dist/components/tailwind.css: {}
