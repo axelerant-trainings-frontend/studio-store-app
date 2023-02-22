@@ -1,6 +1,6 @@
 uuid: e4bd1c46-3987-4d82-929f-c99644f10c6f
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - studio_store
@@ -15,6 +15,6 @@ plugin: page_title_block
 settings:
   id: page_title_block
   label: 'Page title'
-  provider: core
   label_display: '0'
+  provider: core
 visibility: {  }

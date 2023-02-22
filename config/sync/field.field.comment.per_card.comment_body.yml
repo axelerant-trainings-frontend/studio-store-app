@@ -1,0 +1,21 @@
+uuid: f376cbba-413c-489a-9721-c5a4155ca8bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.per_card
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.per_card.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: per_card
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

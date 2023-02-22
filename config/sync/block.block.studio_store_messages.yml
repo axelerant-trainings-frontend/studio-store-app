@@ -1,6 +1,6 @@
 uuid: 7e7d7b64-00f8-4663-9f48-ab421c80f803
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,12 +11,12 @@ _core:
 id: studio_store_messages
 theme: studio_store
 region: header
-weight: 0
+weight: -2
 provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
   label: 'Status messages'
-  provider: system
   label_display: '0'
+  provider: system
 visibility: {  }
