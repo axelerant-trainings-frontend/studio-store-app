@@ -11,12 +11,12 @@ _core:
 id: studio_store_breadcrumbs
 theme: studio_store
 region: header
-weight: 0
+weight: -4
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
   label: Breadcrumbs
-  provider: system
   label_display: '0'
+  provider: system
 visibility: {  }

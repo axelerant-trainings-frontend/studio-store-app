@@ -1,6 +1,6 @@
 uuid: 8702bc4b-2b6f-45df-8ebd-aed80241fda4
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,12 +11,12 @@ _core:
 id: studio_store_powered
 theme: studio_store
 region: header
-weight: 10
+weight: 1
 provider: null
 plugin: system_powered_by_block
 settings:
   id: system_powered_by_block
   label: 'Powered by Drupal'
-  provider: system
   label_display: '0'
+  provider: system
 visibility: {  }

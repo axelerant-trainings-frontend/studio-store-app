@@ -1,6 +1,6 @@
 uuid: 8bce2626-2d0c-40ce-b435-fbcbe68ceda2
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - studio_store
@@ -15,6 +15,6 @@ plugin: local_actions_block
 settings:
   id: local_actions_block
   label: 'Primary admin actions'
-  provider: core
   label_display: '0'
+  provider: core
 visibility: {  }

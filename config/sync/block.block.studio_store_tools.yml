@@ -1,6 +1,6 @@
 uuid: 2f6c8ccd-8204-4b10-99e8-dc4f7e455784
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -13,14 +13,14 @@ _core:
 id: studio_store_tools
 theme: studio_store
 region: header
-weight: 0
+weight: -1
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
   label: Tools
-  provider: system
   label_display: visible
+  provider: system
   level: 1
   depth: 0
   expand_all_items: false

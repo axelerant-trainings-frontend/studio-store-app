@@ -1,6 +1,6 @@
 uuid: 5d5007cf-0f21-4ce5-8589-7e6ee6b63fb6
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - studio_store
@@ -15,8 +15,8 @@ plugin: local_tasks_block
 settings:
   id: local_tasks_block
   label: Tabs
-  provider: core
   label_display: '0'
+  provider: core
   primary: true
   secondary: true
 visibility: {  }

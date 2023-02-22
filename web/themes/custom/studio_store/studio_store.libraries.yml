@@ -3,9 +3,12 @@ global:
     theme:
       dist/components/global.css: {}
   js:
-    dist/components/main.js:
-      attributes:
-        type: module
+    dist/components/organisms/navigation/nav.js: {}
+
+header:
+  css:
+    theme:
+      dist/components/organisms/scss/header.css: {}
 
 # tailwind:
 #   css:
