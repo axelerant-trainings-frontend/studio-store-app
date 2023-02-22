@@ -1,0 +1,25 @@
+uuid: 9f26ff5f-1865-48eb-be94-93dddcd14707
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:client_sec:7ceb887a-2a3a-42be-9490-68201e852544'
+  module:
+    - block_content
+  theme:
+    - studio_store
+id: clientsection
+theme: studio_store
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:7ceb887a-2a3a-42be-9490-68201e852544'
+settings:
+  id: 'block_content:7ceb887a-2a3a-42be-9490-68201e852544'
+  label: 'Client section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

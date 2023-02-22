@@ -1,0 +1,10 @@
+uuid: 032905f1-162e-4c2b-bcbd-5386045b06ba
+langcode: en
+status: true
+dependencies: {  }
+id: client_logos
+label: 'client logos'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

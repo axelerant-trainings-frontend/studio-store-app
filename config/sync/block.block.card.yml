@@ -1,0 +1,25 @@
+uuid: 33224a3f-e36a-4fe1-b2aa-b138862e7eaf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:card:48fcf296-6172-4208-a26c-f110d33cbd54'
+  module:
+    - block_content
+  theme:
+    - studio_store
+id: card
+theme: studio_store
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:48fcf296-6172-4208-a26c-f110d33cbd54'
+settings:
+  id: 'block_content:48fcf296-6172-4208-a26c-f110d33cbd54'
+  label: card
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

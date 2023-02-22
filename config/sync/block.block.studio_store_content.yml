@@ -1,6 +1,6 @@
 uuid: 70b8ee74-2a94-4a2a-8967-dc0c1d7243fc
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: studio_store_content
 theme: studio_store
 region: content
-weight: 0
+weight: -5
 provider: null
 plugin: system_main_block
 settings:

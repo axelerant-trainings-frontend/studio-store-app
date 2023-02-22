@@ -1,0 +1,23 @@
+uuid: 2495e5a4-7b1a-4013-9fc8-55da4ed85bbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.client_logos.field_client_logos
+    - paragraphs.paragraphs_type.client_logos
+  module:
+    - image
+id: paragraph.client_logos.default
+targetEntityType: paragraph
+bundle: client_logos
+mode: default
+content:
+  field_client_logos:
+    type: image_url
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
