@@ -15,7 +15,7 @@ libraries:
   - core/normalize
   - studio_store/header
   - studio_store/global
-  # - studio_store/tailwind
+  - studio_store/tailwind
 
 components:
   namespaces:
