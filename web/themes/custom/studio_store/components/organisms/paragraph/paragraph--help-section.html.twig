@@ -39,22 +39,16 @@
  */
 #}
 
-{% block paragraph %}
-	<div{{ attributes.addClass(classes) }}>
-		{% block content %}
-			<div class='flex md:justify-between flex-col lg:flex-row mt-16 lg:mt-32  max-w-full'>
-				<div class='lg:mr-16'>
-					<div class='text-4xl mb-4 font-bold'>
-						{{ content.field_title[0] }}
-					</div>
-					<div class='mb-10 w-80 text-gray-600 leading-6'>
-						{{ content.field_body[0] }}
-					</div>
-				</div>
-				<div>
-					{{ content.field_client_logo }}
-				</div>
+<div class='help section'>
+	<div class='flex flex-col justify-between my-10 lg:flex-row'>
+		<div class='flex flex-col max-w-full lg:w-80 md:justify-center'>
+			<div class='heading text-4xl font-bold mb-8'>
+				{{ content.field_heading }}
 			</div>
-		{% endblock %}
+			<div class='font-base text-gray-600 leading-6 mb-10 lg:mb-0'>
+				{{ content.field_desc }}
+			</div>
+		</div>
+		{{ content.field_cards }}
 	</div>
-{% endblock paragraph %}
+</div>

@@ -1,0 +1,43 @@
+uuid: 6c19e51f-8dd2-4d6e-8d6c-4137ad817f0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.help_sec_block
+    - field.storage.block_content.field_help_sec_block_para
+    - paragraphs.paragraphs_type.help_section
+  module:
+    - entity_reference_revisions
+id: block_content.help_sec_block.field_help_sec_block_para
+field_name: field_help_sec_block_para
+entity_type: block_content
+bundle: help_sec_block
+label: 'help sec block para'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      help_section: help_section
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 6
+        enabled: false
+      client_:
+        weight: 7
+        enabled: false
+      client_logos:
+        weight: 8
+        enabled: false
+      help_section:
+        weight: 9
+        enabled: true
+      hero_section_:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions
