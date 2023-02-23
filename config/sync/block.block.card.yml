@@ -11,7 +11,7 @@ dependencies:
 id: card
 theme: studio_store
 region: content
-weight: 0
+weight: -7
 provider: null
 plugin: 'block_content:48fcf296-6172-4208-a26c-f110d33cbd54'
 settings:

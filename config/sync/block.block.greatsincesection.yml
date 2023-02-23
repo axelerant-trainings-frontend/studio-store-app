@@ -1,0 +1,25 @@
+uuid: 43f0dc9f-21be-42af-a001-61f95aa899f3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:great_since_section:6d06dc7f-1d73-467a-b0fb-bab284f6bff7'
+  module:
+    - block_content
+  theme:
+    - studio_store
+id: greatsincesection
+theme: studio_store
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:6d06dc7f-1d73-467a-b0fb-bab284f6bff7'
+settings:
+  id: 'block_content:6d06dc7f-1d73-467a-b0fb-bab284f6bff7'
+  label: 'great since section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
