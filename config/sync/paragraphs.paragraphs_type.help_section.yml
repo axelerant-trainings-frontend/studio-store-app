@@ -1,0 +1,10 @@
+uuid: fedc62b3-7d26-4bc9-8a68-175843c88805
+langcode: en
+status: true
+dependencies: {  }
+id: help_section
+label: 'Help section'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
