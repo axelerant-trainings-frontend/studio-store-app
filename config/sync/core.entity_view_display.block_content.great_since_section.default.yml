@@ -1,0 +1,24 @@
+uuid: 71d3f094-098f-4443-a3e6-c690faa1d150
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.great_since_section
+    - field.field.block_content.great_since_section.field_great_since
+  module:
+    - entity_reference_revisions
+id: block_content.great_since_section.default
+targetEntityType: block_content
+bundle: great_since_section
+mode: default
+content:
+  field_great_since:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

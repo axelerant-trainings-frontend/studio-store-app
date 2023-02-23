@@ -11,7 +11,7 @@ dependencies:
 id: helpsectionwithcards
 theme: studio_store
 region: content
-weight: 0
+weight: -6
 provider: null
 plugin: 'block_content:ada77c8a-095b-4982-9c26-4f93442a2bb0'
 settings:
