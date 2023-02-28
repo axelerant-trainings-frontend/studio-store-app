@@ -1,0 +1,8 @@
+uuid: 448bce19-18c0-4c4a-b784-7a35fc468e27
+langcode: en
+status: true
+dependencies: {  }
+id: slider_block
+label: 'slider block'
+revision: 0
+description: ''

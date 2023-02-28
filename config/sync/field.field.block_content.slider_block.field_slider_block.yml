@@ -1,0 +1,52 @@
+uuid: 2457364d-e867-412a-bdc1-8b448847b495
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slider_block
+    - field.storage.block_content.field_slider_block
+    - paragraphs.paragraphs_type.slider
+  module:
+    - entity_reference_revisions
+id: block_content.slider_block.field_slider_block
+field_name: field_slider_block
+entity_type: block_content
+bundle: slider_block
+label: 'slider block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      slider: slider
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 9
+        enabled: false
+      client_logos:
+        weight: 10
+        enabled: false
+      college_gallery:
+        weight: 11
+        enabled: false
+      great_since_section:
+        weight: 12
+        enabled: false
+      help_section:
+        weight: 13
+        enabled: false
+      hero_section:
+        weight: 14
+        enabled: false
+      slide:
+        weight: 15
+        enabled: false
+      slider:
+        weight: 16
+        enabled: true
+field_type: entity_reference_revisions
