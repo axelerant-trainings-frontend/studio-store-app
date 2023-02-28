@@ -1,0 +1,32 @@
+uuid: b77441a0-26bb-40c5-8cdc-f6ebadaeea4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_newsletter_webform
+    - paragraphs.paragraphs_type.newsletter
+    - webform.webform.newsletter_webform
+  module:
+    - webform
+id: paragraph.newsletter.field_newsletter_webform
+field_name: field_newsletter_webform
+entity_type: paragraph
+bundle: newsletter
+label: 'newsletter webform'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: f7baacde-00fb-4198-b8a5-d3a5bc3a2f9d
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

@@ -9,7 +9,7 @@ _core:
 id: studio_store_page_title
 theme: studio_store
 region: header
-weight: -7
+weight: -9
 provider: null
 plugin: page_title_block
 settings:

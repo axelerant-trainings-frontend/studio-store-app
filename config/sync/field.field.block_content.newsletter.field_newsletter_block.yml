@@ -1,0 +1,55 @@
+uuid: 01690d6d-4d67-44d3-9906-b542652e4d78
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.newsletter
+    - field.storage.block_content.field_newsletter_block
+    - paragraphs.paragraphs_type.newsletter
+  module:
+    - entity_reference_revisions
+id: block_content.newsletter.field_newsletter_block
+field_name: field_newsletter_block
+entity_type: block_content
+bundle: newsletter
+label: 'newsletter block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      newsletter: newsletter
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 10
+        enabled: false
+      client_logos:
+        weight: 11
+        enabled: false
+      college_gallery:
+        weight: 12
+        enabled: false
+      great_since_section:
+        weight: 13
+        enabled: false
+      help_section:
+        weight: 14
+        enabled: false
+      hero_section:
+        weight: 15
+        enabled: false
+      newsletter:
+        weight: 16
+        enabled: true
+      slide:
+        weight: 17
+        enabled: false
+      slider:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

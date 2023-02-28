@@ -1,0 +1,19 @@
+uuid: 42d4470c-1060-4ac9-9fa2-0ece53f43641
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_newsletter_desc
+    - paragraphs.paragraphs_type.newsletter
+id: paragraph.newsletter.field_newsletter_desc
+field_name: field_newsletter_desc
+entity_type: paragraph
+bundle: newsletter
+label: 'newsletter desc'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
