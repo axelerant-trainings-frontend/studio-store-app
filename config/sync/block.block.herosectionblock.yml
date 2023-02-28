@@ -1,0 +1,25 @@
+uuid: 19211e43-d6df-467b-944d-32156b4ea613
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero_block:37c263c9-028b-4b2a-a0af-fe0a12a31b60'
+  module:
+    - block_content
+  theme:
+    - studio_store
+id: herosectionblock
+theme: studio_store
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:37c263c9-028b-4b2a-a0af-fe0a12a31b60'
+settings:
+  id: 'block_content:37c263c9-028b-4b2a-a0af-fe0a12a31b60'
+  label: 'hero section block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
