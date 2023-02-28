@@ -1,0 +1,23 @@
+uuid: 84bed429-8f6e-47e4-9a97-f93d953ff7b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.college_gallery.field_round_image
+    - paragraphs.paragraphs_type.college_gallery
+  module:
+    - image
+id: paragraph.college_gallery.default
+targetEntityType: paragraph
+bundle: college_gallery
+mode: default
+content:
+  field_round_image:
+    type: image_url
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

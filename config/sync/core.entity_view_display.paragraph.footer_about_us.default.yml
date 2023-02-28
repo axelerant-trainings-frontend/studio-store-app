@@ -1,0 +1,61 @@
+uuid: 82d5a9f9-5ed8-4117-a9f3-3cc81f5634b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.footer_about_us.field_footer_desc
+    - field.field.paragraph.footer_about_us.field_footer_logo
+    - field.field.paragraph.footer_about_us.field_social_icon
+    - field.field.paragraph.footer_about_us.field_social_links
+    - paragraphs.paragraphs_type.footer_about_us
+  module:
+    - image
+    - link
+id: paragraph.footer_about_us.default
+targetEntityType: paragraph
+bundle: footer_about_us
+mode: default
+content:
+  field_footer_desc:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_footer_logo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_social_icon:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_social_links:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

@@ -1,0 +1,30 @@
+uuid: b39003ae-7063-4174-af6a-8d2e7d7b7b39
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:slide_section:28dfb8b7-6ea1-4a87-a5d4-677db7fae238'
+  module:
+    - block_content
+    - system
+  theme:
+    - studio_store
+id: sliderimagessection
+theme: studio_store
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:28dfb8b7-6ea1-4a87-a5d4-677db7fae238'
+settings:
+  id: 'block_content:28dfb8b7-6ea1-4a87-a5d4-677db7fae238'
+  label: 'slider images section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

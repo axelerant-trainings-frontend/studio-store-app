@@ -1,0 +1,23 @@
+uuid: d9d51565-11d7-4a1c-bc60-0ad1557a959b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_menu
+    - paragraphs.paragraphs_type.footer
+id: paragraph.footer.field_menu
+field_name: field_menu
+entity_type: paragraph
+bundle: footer
+label: menu
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:menu'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

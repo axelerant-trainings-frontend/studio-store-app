@@ -6,12 +6,13 @@ dependencies:
     - 'block_content:client_sec:7ceb887a-2a3a-42be-9490-68201e852544'
   module:
     - block_content
+    - system
   theme:
     - studio_store
 id: clientsection
 theme: studio_store
 region: content
-weight: -8
+weight: -13
 provider: null
 plugin: 'block_content:7ceb887a-2a3a-42be-9490-68201e852544'
 settings:
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

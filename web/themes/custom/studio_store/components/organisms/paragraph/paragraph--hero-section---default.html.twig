@@ -49,13 +49,9 @@ set classes = [
   ]
 %}
 
-{% block paragraph %}
-	<div{{ attributes.addClass(classes) }}>
-		{% block content %}
-			<div class='flex flex-col w-full mb-20'>
-				{{ content|without('field_hero_image') }}
-			</div>
-			{{ content.field_hero_image }}
-		{% endblock %}
+<div{{ attributes.addClass(classes) }}>
+	<div class='herosection-details flex flex-col mb-20'>
+		{{ content|without('field_hero_image') }}
 	</div>
-{% endblock paragraph %}
+	{{ content.field_hero_image }}
+</div>

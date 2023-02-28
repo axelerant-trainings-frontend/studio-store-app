@@ -1,0 +1,19 @@
+uuid: 4d6b21fa-7a21-4476-b797-b05cfa9ee3fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_footer_desc
+    - paragraphs.paragraphs_type.footer_about_us
+id: paragraph.footer_about_us.field_footer_desc
+field_name: field_footer_desc
+entity_type: paragraph
+bundle: footer_about_us
+label: 'footer desc'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

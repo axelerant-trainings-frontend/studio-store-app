@@ -36,6 +36,7 @@
  * @see template_preprocess_field()
  */
 #}
-{% for item in items %}
-		<img class='w-1/2 md:w-full' src='{{ item.content }}'/>
+
+{% for key, item in items %}
+	<img class='{{ key ~ 'logoimage' }} w-1/2 md:w-full' src='{{ item.content }}'/>
 {% endfor %}

@@ -1,6 +1,6 @@
 uuid: 3364abcc-bed9-4b18-82fe-b34acb2b0612
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footermenu1
@@ -11,7 +11,7 @@ dependencies:
 id: footermenu1
 theme: studio_store
 region: footer
-weight: 0
+weight: -10
 provider: null
 plugin: 'system_menu_block:footermenu1'
 settings:
@@ -22,4 +22,8 @@ settings:
   level: 1
   depth: 0
   expand_all_items: false
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

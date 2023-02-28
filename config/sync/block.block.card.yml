@@ -6,12 +6,13 @@ dependencies:
     - 'block_content:card:48fcf296-6172-4208-a26c-f110d33cbd54'
   module:
     - block_content
+    - system
   theme:
     - studio_store
 id: card
 theme: studio_store
 region: content
-weight: -7
+weight: -12
 provider: null
 plugin: 'block_content:48fcf296-6172-4208-a26c-f110d33cbd54'
 settings:
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

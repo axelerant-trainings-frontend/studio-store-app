@@ -1,0 +1,30 @@
+uuid: 179a7778-db19-49d9-a591-120bf95b211c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:newsletter:c9cc30cc-65ab-4330-bb0d-3bc01f13c162'
+  module:
+    - block_content
+    - system
+  theme:
+    - studio_store
+id: newslettersection
+theme: studio_store
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:c9cc30cc-65ab-4330-bb0d-3bc01f13c162'
+settings:
+  id: 'block_content:c9cc30cc-65ab-4330-bb0d-3bc01f13c162'
+  label: 'newsletter section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
