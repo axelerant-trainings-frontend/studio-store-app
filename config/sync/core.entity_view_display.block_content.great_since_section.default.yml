@@ -1,18 +1,18 @@
-uuid: 3e5dd09b-0f66-48dd-baab-f6355706b5cb
+uuid: 802eda24-4d9b-40bf-b41b-4ad7b7dd9996
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.help_sec_block
-    - field.field.block_content.help_sec_block.field_help_section
+    - block_content.type.great_since_section
+    - field.field.block_content.great_since_section.field_great_since_section
   module:
     - entity_reference_revisions
-id: block_content.help_sec_block.default
+id: block_content.great_since_section.default
 targetEntityType: block_content
-bundle: help_sec_block
+bundle: great_since_section
 mode: default
 content:
-  field_help_section:
+  field_great_since_section:
     type: entity_reference_revisions_entity_view
     label: hidden
     settings:

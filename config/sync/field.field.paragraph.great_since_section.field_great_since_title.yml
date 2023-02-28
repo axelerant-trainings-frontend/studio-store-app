@@ -1,0 +1,19 @@
+uuid: df3f2c70-b253-4cb8-a44f-6a1a47b670ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_great_since_title
+    - paragraphs.paragraphs_type.great_since_section
+id: paragraph.great_since_section.field_great_since_title
+field_name: field_great_since_title
+entity_type: paragraph
+bundle: great_since_section
+label: 'great since title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
