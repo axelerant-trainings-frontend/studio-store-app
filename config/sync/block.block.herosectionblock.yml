@@ -11,7 +11,7 @@ dependencies:
 id: herosectionblock
 theme: studio_store
 region: content
-weight: -7
+weight: -8
 provider: null
 plugin: 'block_content:37c263c9-028b-4b2a-a0af-fe0a12a31b60'
 settings:

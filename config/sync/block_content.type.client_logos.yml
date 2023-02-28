@@ -1,0 +1,8 @@
+uuid: a1606bc7-dc48-4089-b435-6c6a54068bdc
+langcode: en
+status: true
+dependencies: {  }
+id: client_logos
+label: 'client logos'
+revision: 0
+description: ''
