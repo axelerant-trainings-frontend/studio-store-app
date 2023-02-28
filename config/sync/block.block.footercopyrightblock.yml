@@ -1,0 +1,30 @@
+uuid: 458295c9-6942-4198-aa0e-c0babdbdbc6a
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:copyright:50949f53-e7da-4369-ad9b-5c33d392307f'
+  module:
+    - block_content
+    - system
+  theme:
+    - studio_store
+id: footercopyrightblock
+theme: studio_store
+region: header
+weight: -14
+provider: null
+plugin: 'block_content:50949f53-e7da-4369-ad9b-5c33d392307f'
+settings:
+  id: 'block_content:50949f53-e7da-4369-ad9b-5c33d392307f'
+  label: 'footer copyright block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

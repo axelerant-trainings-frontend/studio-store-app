@@ -6,12 +6,13 @@ dependencies:
     - 'block_content:help_sec_block:ada77c8a-095b-4982-9c26-4f93442a2bb0'
   module:
     - block_content
+    - system
   theme:
     - studio_store
 id: helpsectionwithcards
 theme: studio_store
 region: content
-weight: -6
+weight: -11
 provider: null
 plugin: 'block_content:ada77c8a-095b-4982-9c26-4f93442a2bb0'
 settings:
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

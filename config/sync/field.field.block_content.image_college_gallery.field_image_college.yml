@@ -1,0 +1,55 @@
+uuid: 920a42f1-5f71-4b28-b678-d39ca1a30f08
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image_college_gallery
+    - field.storage.block_content.field_image_college
+    - paragraphs.paragraphs_type.college_gallery
+  module:
+    - entity_reference_revisions
+id: block_content.image_college_gallery.field_image_college
+field_name: field_image_college
+entity_type: block_content
+bundle: image_college_gallery
+label: 'image college'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      college_gallery: college_gallery
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 10
+        enabled: false
+      client_:
+        weight: 11
+        enabled: false
+      client_logos:
+        weight: 12
+        enabled: false
+      college_gallery:
+        weight: 13
+        enabled: true
+      great_since_section:
+        weight: 14
+        enabled: false
+      help_section:
+        weight: 15
+        enabled: false
+      hero_section_:
+        weight: 16
+        enabled: false
+      slide:
+        weight: 17
+        enabled: false
+      slider:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

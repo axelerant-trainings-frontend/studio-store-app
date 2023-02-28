@@ -1,0 +1,43 @@
+uuid: 7cb2007b-b729-493a-8b7d-d3db33e77ea4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.newsletter.field_newletter_desc
+    - field.field.paragraph.newsletter.field_newletter_title
+    - field.field.paragraph.newsletter.field_newletter_webform
+    - paragraphs.paragraphs_type.newsletter
+  module:
+    - webform
+id: paragraph.newsletter.default
+targetEntityType: paragraph
+bundle: newsletter
+mode: default
+content:
+  field_newletter_desc:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_newletter_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_newletter_webform:
+    type: webform_entity_reference_select
+    weight: 0
+    region: content
+    settings:
+      default_data: true
+      webforms: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

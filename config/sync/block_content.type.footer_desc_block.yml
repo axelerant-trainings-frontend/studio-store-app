@@ -1,0 +1,8 @@
+uuid: f4d05f95-a295-497a-9ecd-d9ec8203c765
+langcode: en
+status: true
+dependencies: {  }
+id: footer_desc_block
+label: 'footer desc block'
+revision: 0
+description: ''

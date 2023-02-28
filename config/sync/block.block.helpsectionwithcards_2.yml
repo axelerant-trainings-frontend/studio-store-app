@@ -1,0 +1,25 @@
+uuid: 79b4a76c-2ccd-4d35-8168-1138fa20120b
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:help_sec_block:ada77c8a-095b-4982-9c26-4f93442a2bb0'
+  module:
+    - block_content
+  theme:
+    - studio_store
+id: helpsectionwithcards_2
+theme: studio_store
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:ada77c8a-095b-4982-9c26-4f93442a2bb0'
+settings:
+  id: 'block_content:ada77c8a-095b-4982-9c26-4f93442a2bb0'
+  label: 'help section with cards'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

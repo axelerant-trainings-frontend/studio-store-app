@@ -1,0 +1,29 @@
+uuid: fbd036cd-0ec5-4bea-856c-f06f28125b90
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.company
+  module:
+    - system
+  theme:
+    - studio_store
+id: company
+theme: studio_store
+region: footer
+weight: -13
+provider: null
+plugin: 'system_menu_block:company'
+settings:
+  id: 'system_menu_block:company'
+  label: Company
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

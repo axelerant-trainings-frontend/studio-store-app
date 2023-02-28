@@ -1,0 +1,8 @@
+uuid: d4048727-46fd-4623-84b2-4c65c0f94a35
+langcode: en
+status: true
+dependencies: {  }
+id: newsletter
+label: Newsletter
+revision: 0
+description: ''
