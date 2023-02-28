@@ -11,7 +11,7 @@ _core:
 id: studio_store_content
 theme: studio_store
 region: content
-weight: -8
+weight: -6
 provider: null
 plugin: system_main_block
 settings:

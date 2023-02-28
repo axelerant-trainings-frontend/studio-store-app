@@ -1,0 +1,19 @@
+uuid: 5034ccef-eb3c-4cf0-a660-9c2777c51148
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.client_logos
+id: paragraph.client_logos.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: client_logos
+label: title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
