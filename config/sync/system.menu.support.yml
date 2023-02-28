@@ -1,8 +1,0 @@
-uuid: 1767f345-b82d-4a09-9d26-ed96fe472ff3
-langcode: en
-status: true
-dependencies: {  }
-id: support
-label: Support
-description: ''
-locked: false

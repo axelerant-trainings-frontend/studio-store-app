@@ -1,0 +1,8 @@
+uuid: dcc063f2-bdac-4786-8874-1344838f9bc4
+langcode: en
+status: true
+dependencies: {  }
+id: studio-menu
+label: 'studio menu'
+description: ''
+locked: false

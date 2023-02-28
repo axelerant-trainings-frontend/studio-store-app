@@ -1,4 +1,4 @@
-uuid: 83874136-76d0-45b3-933f-d96885ba3805
+uuid: 2e0c280a-3628-47fb-a6da-ce5df880dfd3
 langcode: en
 status: false
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - studio_store
 _core:
-  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
 id: studio_store_breadcrumbs
 theme: studio_store
 region: header
-weight: -4
+weight: 3
 provider: null
 plugin: system_breadcrumb_block
 settings:

@@ -1,6 +1,6 @@
-uuid: e1d5a81b-b2d9-4ab3-aa17-b63ba9f45e6d
+uuid: be3d7c13-3f45-4e2f-b78f-5f3c36d52816
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -9,11 +9,11 @@ dependencies:
   theme:
     - studio_store
 _core:
-  default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
+  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
 id: studio_store_main_menu
 theme: studio_store
 region: header
-weight: -5
+weight: 5
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -22,10 +22,6 @@ settings:
   label_display: '0'
   provider: system
   level: 1
-  depth: 1
-  expand_all_items: false
-visibility:
-  request_path:
-    id: request_path
-    negate: false
-    pages: '<front>'
+  depth: 2
+  expand_all_items: true
+visibility: {  }

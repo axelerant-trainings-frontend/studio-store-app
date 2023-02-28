@@ -1,8 +1,0 @@
-uuid: 931d7ed8-9f33-4455-8e0e-01f132b25ae0
-langcode: en
-status: true
-dependencies: {  }
-id: company
-label: Company
-description: ''
-locked: false

@@ -1,14 +1,14 @@
-uuid: e4bd1c46-3987-4d82-929f-c99644f10c6f
+uuid: ce212378-4f7b-4427-b606-25dd13b8f46b
 langcode: en
 status: false
 dependencies:
   theme:
     - studio_store
 _core:
-  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
 id: studio_store_page_title
 theme: studio_store
-region: content
+region: header
 weight: -5
 provider: null
 plugin: page_title_block

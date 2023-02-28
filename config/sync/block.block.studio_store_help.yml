@@ -1,4 +1,4 @@
-uuid: acdddd06-f28a-4745-9741-b062e60a8283
+uuid: 42b8e013-1302-4041-9f1a-e3d263daa595
 langcode: en
 status: false
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - studio_store
 _core:
-  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: studio_store_help
 theme: studio_store
-region: content
-weight: -3
+region: header
+weight: 4
 provider: null
 plugin: help_block
 settings:

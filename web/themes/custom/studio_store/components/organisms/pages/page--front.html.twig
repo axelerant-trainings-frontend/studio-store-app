@@ -45,22 +45,25 @@
 #}
 {# {{kpr(page.header)}} #}
 
+
 <div class="layout-container max-w-screen-xl mx-auto">
-  <header class='header-nav-section my-5 md:my-10' role="banner">
-    <div class ='flex justify-between'>
-      {{ page.header.studio_store_branding }}
-      {{ page.header.studio_store_main_menu }}
-      <div class="hamburger lg:hidden">
+	<header class='header-nav-section my-5 md:my-10' role="banner">
+		<div class='flex justify-between'>
+			{{ page.header.studio_store_site_branding }}
+			{{ page.header.studiomenu }}
+			<div class="hamburger lg:hidden">
 				<span class="bar"></span>
 				<span class="bar"></span>
 				<span class="bar"></span>
 			</div>
-    </div>
-    {{ page.header|without('studio_store_branding', 'studio_store_main_menu') }}
-  </header>
+		</div>
+		{{ page.header|without('studio_store_site_branding', 'studiomenu') }}
+	</header>
 
-  <main role="main">
+
+  {# <main role="main">
     <div class="layout-content">
+    {{ page.content }}
       {{ page.content.herosectionblock }}
       {{ page.content.clientsection }}
       {{ page.content.card }}
@@ -68,15 +71,15 @@
       {{ page.content.greatsincesection }}
       {{ page.content.sliderimagessection }}
       {{ page.content.newslettersection }}
-    </div>{# /.layout-content #}
-  </main>
+    </div>
+  </main> #}
 
-  {% if page.footer %}
+  {# {% if page.footer %}
     <footer role="contentinfo">
       {{ page.footer }}
     </footer>
   {% endif %}
   {% if page.footer_second %}
     {{ page.footer_second }}
-  {% endif %}
+  {% endif %} #}
 </div>{# /.layout-container #}

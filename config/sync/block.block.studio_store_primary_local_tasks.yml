@@ -1,0 +1,22 @@
+uuid: 2a0019b7-489d-41eb-8543-9f7cb27cc1ca
+langcode: en
+status: false
+dependencies:
+  theme:
+    - studio_store
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: studio_store_primary_local_tasks
+theme: studio_store
+region: header
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

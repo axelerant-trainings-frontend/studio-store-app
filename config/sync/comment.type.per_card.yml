@@ -1,8 +1,0 @@
-uuid: 01cfa469-bd57-4d4b-ba2b-b2b0e06eafa8
-langcode: en
-status: true
-dependencies: {  }
-id: per_card
-label: perCard
-target_entity_type_id: block_content
-description: ''
