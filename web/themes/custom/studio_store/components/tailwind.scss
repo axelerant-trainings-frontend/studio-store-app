@@ -271,6 +271,11 @@
     padding-right: 120px;
   }
 }
+.great-since-right {
+  @media (min-width: 1024px) {
+    margin-left: 119px;
+  }
+}
 .slidersection-details {
   padding: 0 20px;
   @media (min-width: 1024px) {
