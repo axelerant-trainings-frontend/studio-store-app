@@ -1,0 +1,43 @@
+uuid: c97759fc-90c2-4cf5-873c-6c2ac697fb62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.great_since_section.field_great_since_desc
+    - field.field.paragraph.great_since_section.field_great_since_title
+    - field.field.paragraph.great_since_section.field_video
+    - paragraphs.paragraphs_type.great_since_section
+id: paragraph.great_since_section.default
+targetEntityType: paragraph
+bundle: great_since_section
+mode: default
+content:
+  field_great_since_desc:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_great_since_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_video:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

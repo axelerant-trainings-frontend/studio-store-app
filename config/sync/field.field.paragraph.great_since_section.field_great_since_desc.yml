@@ -1,0 +1,19 @@
+uuid: b52696de-63f5-48fd-9d83-f2c87d32a29b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_great_since_desc
+    - paragraphs.paragraphs_type.great_since_section
+id: paragraph.great_since_section.field_great_since_desc
+field_name: field_great_since_desc
+entity_type: paragraph
+bundle: great_since_section
+label: 'great since desc'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,43 @@
+uuid: 0c7e0dcb-65fe-402e-a64c-d9e5f11c9031
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.great_since_section
+    - field.storage.block_content.field_great_since_section
+    - paragraphs.paragraphs_type.great_since_section
+  module:
+    - entity_reference_revisions
+id: block_content.great_since_section.field_great_since_section
+field_name: field_great_since_section
+entity_type: block_content
+bundle: great_since_section
+label: 'great since section'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      great_since_section: great_since_section
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 6
+        enabled: false
+      client_logos:
+        weight: 7
+        enabled: false
+      great_since_section:
+        weight: 8
+        enabled: true
+      help_section:
+        weight: 9
+        enabled: false
+      hero_section:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions
