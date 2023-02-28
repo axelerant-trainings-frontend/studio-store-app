@@ -11,7 +11,7 @@ dependencies:
 id: clientsection
 theme: studio_store
 region: content
-weight: -8
+weight: -9
 provider: null
 plugin: 'block_content:20b00b86-c803-4223-8451-d3a42a6a9ff7'
 settings:

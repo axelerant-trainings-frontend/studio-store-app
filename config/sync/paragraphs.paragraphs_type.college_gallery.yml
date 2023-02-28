@@ -1,0 +1,10 @@
+uuid: 4466d90a-364a-4c62-a141-dddb6dbe3313
+langcode: en
+status: true
+dependencies: {  }
+id: college_gallery
+label: 'college gallery'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -11,7 +11,7 @@ dependencies:
 id: greatsincesection
 theme: studio_store
 region: content
-weight: -6
+weight: -7
 provider: null
 plugin: 'block_content:c26216dd-bbf0-4532-ac71-70648cc6a1ac'
 settings:
