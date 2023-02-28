@@ -1,0 +1,42 @@
+uuid: 4cc2b68e-0c83-452e-aa7f-e50cff501513
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.help_section.field_cards
+    - field.field.paragraph.help_section.field_desc
+    - field.field.paragraph.help_section.field_heading
+    - paragraphs.paragraphs_type.help_section
+  module:
+    - entity_reference_revisions
+id: paragraph.help_section.default
+targetEntityType: paragraph
+bundle: help_section
+mode: default
+content:
+  field_cards:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_desc:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_heading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
