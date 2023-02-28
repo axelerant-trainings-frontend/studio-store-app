@@ -1,4 +1,4 @@
-uuid: d00a82ce-637b-4793-973d-ad46e7e73f7b
+uuid: ddbea9b6-9998-4e65-aaeb-1d28dfabdeb6
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - file
     - image
     - paragraphs
-id: paragraph.field_image
-field_name: field_image
+id: paragraph.field_hero_image
+field_name: field_hero_image
 entity_type: paragraph
 type: image
 settings:

@@ -1,17 +1,17 @@
-uuid: 19dcf7f3-ab53-46bb-b7bb-c018692ffb6f
+uuid: d8c19f77-b259-48d6-a697-10f2aad4563a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_image
-    - paragraphs.paragraphs_type.hero
+    - field.storage.paragraph.field_hero_image
+    - paragraphs.paragraphs_type.hero_section
   module:
     - image
-id: paragraph.hero.field_image
-field_name: field_image
+id: paragraph.hero_section.field_hero_image
+field_name: field_hero_image
 entity_type: paragraph
-bundle: hero
-label: image
+bundle: hero_section
+label: 'hero image'
 description: ''
 required: false
 translatable: false

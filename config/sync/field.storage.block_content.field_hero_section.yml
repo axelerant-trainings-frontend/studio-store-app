@@ -1,4 +1,4 @@
-uuid: 3db42ad7-bf60-4808-838c-13c19634d8de
+uuid: 1b5e8118-0d68-47ba-b4a3-27457c573645
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - block_content
     - entity_reference_revisions
     - paragraphs
-id: block_content.field_hero
-field_name: field_hero
+id: block_content.field_hero_section
+field_name: field_hero_section
 entity_type: block_content
 type: entity_reference_revisions
 settings:

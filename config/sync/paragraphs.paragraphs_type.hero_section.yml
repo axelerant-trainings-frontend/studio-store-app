@@ -1,9 +1,9 @@
-uuid: 27ea7d14-f3dc-4b2f-b5e3-66c9b21c1943
+uuid: 37d0d83e-bcde-42b6-8fec-27b432c90087
 langcode: en
 status: true
 dependencies: {  }
-id: hero
-label: hero
+id: hero_section
+label: 'hero section'
 icon_uuid: null
 icon_default: null
 description: ''
