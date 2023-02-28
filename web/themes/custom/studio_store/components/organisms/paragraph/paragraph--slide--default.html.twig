@@ -39,19 +39,14 @@
  */
 #}
 
-{%
-set classes = [
-    'paragraph',
-    'flex flex-col lg:flex-row mx-0 my-5 w-full md:space-between md:my-0',
-    'paragraph--type--' ~ paragraph.bundle|clean_class,
-    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
-    not paragraph.isPublished() ? 'paragraph--unpublished'
-  ]
-%}
-
-<div{{ attributes.addClass(classes) }}>
-	<div class='herosection-details flex flex-col mb-20'>
-		{{ content|without('field_hero_image') }}
+<div class='slider-main-container flex flex-col md:flex-row items-center lg:items-start'>
+	<div class='left-side'>
+		{{ content.field_slide_image }}
 	</div>
-	{{ content.field_hero_image }}
+	<div class='right-side flex flex-col mx-5'>
+		<h3>{{ content.field_slide_title }}</h3>
+		<div class='font-base text-gray-600 leading-6'>
+			{{ content.field_slide_desc }}
+		</div>
+	</div>
 </div>

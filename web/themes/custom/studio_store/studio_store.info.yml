@@ -10,12 +10,14 @@ regions:
   content: Content
   sidebar: Sidebar
   footer: Footer
+  footer_second: Footer Second
 
 libraries:
   - core/normalize
   - studio_store/header
   - studio_store/global
   - studio_store/tailwind
+  - studio_store/slick
 
 components:
   namespaces:

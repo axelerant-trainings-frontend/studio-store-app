@@ -45,44 +45,30 @@
 #}
 {# {{kpr(page.header)}} #}
 
-<div class="layout-container mx-6 md:mx-24">
-  <header class='my-5 md:my-10 md:mx-0' role="banner">
+<div class="layout-container max-w-screen-xl mx-auto">
+  <header class='header-nav-section my-5 md:my-10' role="banner">
     <div class ='flex justify-between'>
       {{ page.header.studio_store_branding }}
       {{ page.header.studio_store_main_menu }}
+      <div class="hamburger lg:hidden">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
     </div>
     {{ page.header|without('studio_store_branding', 'studio_store_main_menu') }}
   </header>
 
-  {{ page.primary_menu }}
-
-  {{ page.secondary_menu }}
-
-  {{ page.breadcrumb }}
-
-  {{ page.highlighted }}
-
-  {{ page.help }}
-
   <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
     <div class="layout-content">
-      {{ page.content }}
+      {{ page.content.herosectionblock }}
+      {{ page.content.clientsection }}
+      {{ page.content.card }}
+      {{ page.content.helpsectionwithcards }}
+      {{ page.content.greatsincesection }}
+      {{ page.content.sliderimagessection }}
+      {{ page.content.newslettersection }}
     </div>{# /.layout-content #}
-
-    {% if page.sidebar_first %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar_first }}
-      </aside>
-    {% endif %}
-
-    {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
-        {{ page.sidebar_second }}
-      </aside>
-    {% endif %}
-
   </main>
 
   {% if page.footer %}
@@ -90,6 +76,7 @@
       {{ page.footer }}
     </footer>
   {% endif %}
-
+  {% if page.footer_second %}
+    {{ page.footer_second }}
+  {% endif %}
 </div>{# /.layout-container #}
-

@@ -37,6 +37,10 @@
  */
 #}
 
-{% for key, item in items %}
-	<img class='{{ key ~ 'logoimage' }} w-1/2 md:w-full' src='{{ item.content }}'/>
-{% endfor %}
+<div class='header2 lg:w-10/12'>
+	<div{{ attributes.addClass('slider-new') }}>
+		{% for item in items %}
+			<div{{ item.attributes }}>{{ item.content }}</div>
+		{% endfor %}
+	</div>
+</div>

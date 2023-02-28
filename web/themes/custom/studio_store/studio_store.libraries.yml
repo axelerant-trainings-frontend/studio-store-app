@@ -4,7 +4,9 @@ global:
       dist/components/global.css: {}
   js:
     dist/components/organisms/navigation/nav.js: {}
-
+    dist/components/organisms/slider/slider.js: {}
+  dependencies:
+    - studio_store/slick
 # header:
 #   css:
 #     theme:
@@ -14,3 +16,13 @@ tailwind:
   css:
     theme:
       dist/components/tailwind.css: {}
+
+slick:
+  css:
+    base:
+       /libraries/slick/slick.css: {}
+
+  js:
+    /libraries/slick/slick.js:
+    dependencies:
+      - core/jquery

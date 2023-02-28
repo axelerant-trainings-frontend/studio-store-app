@@ -56,3 +56,4 @@ grumphp:
       working_directory: web/themes/custom/studio_store
       is_run_task: true
       silent: false
+

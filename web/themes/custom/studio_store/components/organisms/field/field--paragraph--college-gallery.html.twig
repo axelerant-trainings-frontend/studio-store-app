@@ -37,6 +37,10 @@
  */
 #}
 
-{% for key, item in items %}
-	<img class='{{ key ~ 'logoimage' }} w-1/2 md:w-full' src='{{ item.content }}'/>
-{% endfor %}
+<div class='circle-container college-gallery'>
+	<div class='circle'>
+		{% for key, item in items %}
+			<img id={{ 'roundedImage' ~ key }} src='{{ item.content }}'/>
+		{% endfor %}
+	</div>
+</div>
