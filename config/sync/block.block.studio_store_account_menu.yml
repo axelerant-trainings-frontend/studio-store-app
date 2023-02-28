@@ -1,4 +1,4 @@
-uuid: b1e0cc79-46f2-4aba-ac91-4dbab034cbbe
+uuid: 011f8687-d15d-4e71-b078-536354c910d2
 langcode: en
 status: false
 dependencies:
@@ -9,11 +9,11 @@ dependencies:
   theme:
     - studio_store
 _core:
-  default_config_hash: 8a31Ywc1t2zlddGd3bmDrFMefWqgSK2E02ceFdr-bfc
+  default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
 id: studio_store_account_menu
 theme: studio_store
 region: header
-weight: 0
+weight: 1
 provider: null
 plugin: 'system_menu_block:account'
 settings:

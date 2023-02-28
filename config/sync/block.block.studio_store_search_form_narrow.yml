@@ -1,0 +1,23 @@
+uuid: 78edd529-e1ab-4ea8-918d-c091def997d1
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - studio_store
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: studio_store_search_form_narrow
+theme: studio_store
+region: header
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,13 +1,13 @@
-uuid: 70b8ee74-2a94-4a2a-8967-dc0c1d7243fc
+uuid: 0659dcc6-d92a-4cef-ae9a-6d081abbcfe5
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
   theme:
     - studio_store
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
 id: studio_store_content
 theme: studio_store
 region: content

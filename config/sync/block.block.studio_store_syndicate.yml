@@ -1,0 +1,23 @@
+uuid: c363a1e8-61f6-40d6-9b6c-4e081fdbbd83
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - studio_store
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: studio_store_syndicate
+theme: studio_store
+region: header
+weight: 7
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

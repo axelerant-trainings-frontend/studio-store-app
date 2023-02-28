@@ -1,0 +1,25 @@
+uuid: 6d8a3dfe-8585-4d53-9986-5e026a2a75c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - studio_store
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: studio_store_site_branding
+theme: studio_store
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
