@@ -1,0 +1,25 @@
+uuid: 9b9de26e-0256-4bf4-a01b-44ccbeb08819
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:newsletter:81665c6a-95ab-452c-8f58-2b281647fd51'
+  module:
+    - block_content
+  theme:
+    - studio_store
+id: newslettersection
+theme: studio_store
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:81665c6a-95ab-452c-8f58-2b281647fd51'
+settings:
+  id: 'block_content:81665c6a-95ab-452c-8f58-2b281647fd51'
+  label: 'newsletter section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
