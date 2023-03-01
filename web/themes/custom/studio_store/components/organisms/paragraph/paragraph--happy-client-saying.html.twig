@@ -39,9 +39,11 @@
  */
 #}
 
-<div class='hero-section-wrapper flex flex-col lg:flex-row mx-0 my-5 w-full md:space-between md:my-0'>
-	<div class='herosection-details justify-center flex flex-col mb-20'>
-		{{ content|without('field_hero_image') }}
+<div class='flex flex-col items-center happy-client-saying'>
+	<h1 class='heading text-4xl font-bold mb-8'>
+		{{ content.field_heading_text }}
+	</h1>
+	<div class='font-base text-gray-600 leading-6 mb-10 lg:mb-0'>
+		{{ content.field_body_text }}
 	</div>
-	{{ content.field_hero_image }}
 </div>

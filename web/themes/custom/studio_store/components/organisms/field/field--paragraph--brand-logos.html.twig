@@ -37,7 +37,8 @@
  */
 #}
 
-{% for key, item in items %}
-	<img class='{{ key ~ 'logoimage' }} w-1/2 md:w-full' src='{{ item.content }}
-{% endfor %}
-
+<div class='flex items-center brand-logos-container'>
+	{% for item in items %}
+<img class='brand-logos w-1/2 md:w-full' src= {{ item.content['#markup'] }} />
+	{% endfor %}
+</div>
