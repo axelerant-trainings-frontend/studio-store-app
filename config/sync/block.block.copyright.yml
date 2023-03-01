@@ -1,0 +1,25 @@
+uuid: fbd7df6f-58eb-4095-9624-863285389b64
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4457ac56-951d-417a-9202-ff52e51c69cd'
+  module:
+    - block_content
+  theme:
+    - studio_store
+id: copyright
+theme: studio_store
+region: footer_second
+weight: -11
+provider: null
+plugin: 'block_content:4457ac56-951d-417a-9202-ff52e51c69cd'
+settings:
+  id: 'block_content:4457ac56-951d-417a-9202-ff52e51c69cd'
+  label: copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

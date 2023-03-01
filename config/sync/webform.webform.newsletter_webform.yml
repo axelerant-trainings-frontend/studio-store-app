@@ -17,6 +17,7 @@ elements: |-
     '#type': email
     '#title': 'web from email'
     '#title_display': none
+    '#placeholder': 'Enter your email address..'
     '#attributes':
       class:
         - email-box

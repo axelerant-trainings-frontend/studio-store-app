@@ -1,0 +1,61 @@
+uuid: 17c6c791-8c44-48e7-997a-80630d88c3dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_details
+    - field.storage.block_content.field_footer
+    - paragraphs.paragraphs_type.footer
+  module:
+    - entity_reference_revisions
+id: block_content.footer_details.field_footer
+field_name: field_footer
+entity_type: block_content
+bundle: footer_details
+label: 'footer details'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      footer: footer
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 12
+        enabled: false
+      client_logos:
+        weight: 13
+        enabled: false
+      college_gallery:
+        weight: 14
+        enabled: false
+      footer:
+        weight: 15
+        enabled: true
+      footer_links:
+        weight: 16
+        enabled: false
+      great_since_section:
+        weight: 17
+        enabled: false
+      help_section:
+        weight: 18
+        enabled: false
+      hero_section:
+        weight: 19
+        enabled: false
+      newsletter:
+        weight: 20
+        enabled: false
+      slide:
+        weight: 21
+        enabled: false
+      slider:
+        weight: 22
+        enabled: false
+field_type: entity_reference_revisions
