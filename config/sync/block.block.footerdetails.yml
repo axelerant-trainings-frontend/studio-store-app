@@ -1,0 +1,25 @@
+uuid: b7cbe265-a139-486b-a95d-a3473b9e67af
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_details:0d5f4148-28a5-4dfd-a5cf-71edd935d651'
+  module:
+    - block_content
+  theme:
+    - studio_store
+id: footerdetails
+theme: studio_store
+region: footer
+weight: -14
+provider: null
+plugin: 'block_content:0d5f4148-28a5-4dfd-a5cf-71edd935d651'
+settings:
+  id: 'block_content:0d5f4148-28a5-4dfd-a5cf-71edd935d651'
+  label: 'footer details'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

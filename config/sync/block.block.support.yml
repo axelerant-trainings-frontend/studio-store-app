@@ -1,0 +1,25 @@
+uuid: 385174b7-6c85-4995-b4fd-3a8dda34cc84
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.support
+  module:
+    - system
+  theme:
+    - studio_store
+id: support
+theme: studio_store
+region: footer
+weight: -10
+provider: null
+plugin: 'system_menu_block:support'
+settings:
+  id: 'system_menu_block:support'
+  label: Support
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

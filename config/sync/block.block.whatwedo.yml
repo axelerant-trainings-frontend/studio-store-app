@@ -1,23 +1,23 @@
-uuid: 7b228dc9-0e3c-4b41-be3b-4db00c14480f
+uuid: 2b220965-33fa-459e-8c26-46313b50733f
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.studio-menu
+    - system.menu.what-we-do
   module:
     - system
   theme:
     - studio_store
-id: studiomenu
+id: whatwedo
 theme: studio_store
-region: header
+region: footer
 weight: -12
 provider: null
-plugin: 'system_menu_block:studio-menu'
+plugin: 'system_menu_block:what-we-do'
 settings:
-  id: 'system_menu_block:studio-menu'
-  label: 'studio menu'
-  label_display: '0'
+  id: 'system_menu_block:what-we-do'
+  label: 'What We Do'
+  label_display: visible
   provider: system
   level: 1
   depth: 0

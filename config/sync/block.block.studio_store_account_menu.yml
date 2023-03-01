@@ -13,7 +13,7 @@ _core:
 id: studio_store_account_menu
 theme: studio_store
 region: header
-weight: -3
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:

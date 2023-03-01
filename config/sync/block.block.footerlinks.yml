@@ -1,0 +1,25 @@
+uuid: ab4df400-ea6f-40e3-a27c-f0ff23d0db55
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_links:0f5b6e79-f9c4-421a-9365-96e3194ffc38'
+  module:
+    - block_content
+  theme:
+    - studio_store
+id: footerlinks
+theme: studio_store
+region: footer
+weight: -13
+provider: null
+plugin: 'block_content:0f5b6e79-f9c4-421a-9365-96e3194ffc38'
+settings:
+  id: 'block_content:0f5b6e79-f9c4-421a-9365-96e3194ffc38'
+  label: 'footer links'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

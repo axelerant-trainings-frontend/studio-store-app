@@ -1,0 +1,19 @@
+uuid: b7b75e44-2257-4953-b623-a0471ca28e64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_footer_desc
+    - paragraphs.paragraphs_type.footer
+id: paragraph.footer.field_footer_desc
+field_name: field_footer_desc
+entity_type: paragraph
+bundle: footer
+label: 'footer desc'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

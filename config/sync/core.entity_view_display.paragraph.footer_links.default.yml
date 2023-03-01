@@ -1,0 +1,37 @@
+uuid: 5e836dcb-17d7-40f2-b19e-fb5f29e74bd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.footer_links.field_social_icon
+    - field.field.paragraph.footer_links.field_social_link
+    - paragraphs.paragraphs_type.footer_links
+  module:
+    - image
+    - link
+id: paragraph.footer_links.default
+targetEntityType: paragraph
+bundle: footer_links
+mode: default
+content:
+  field_social_icon:
+    type: image_url
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_social_link:
+    type: link_separate
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
