@@ -1,11 +1,11 @@
-uuid: e9ba5ec9-81fb-4e94-aaa0-44d4534f58bd
+uuid: cd0df7c1-9faf-4c13-b0ee-f47816671e20
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_slider_section_title
-field_name: field_slider_section_title
+id: paragraph.field_heading_text
+field_name: field_heading_text
 entity_type: paragraph
 type: string
 settings:

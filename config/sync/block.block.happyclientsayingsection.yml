@@ -1,0 +1,25 @@
+uuid: 43f52f2e-0cc8-443c-a664-176db6fb227a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:happy_client_saying:7f168778-f48c-4237-aaee-c7a438169475'
+  module:
+    - block_content
+  theme:
+    - studio_store
+id: happyclientsayingsection
+theme: studio_store
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:7f168778-f48c-4237-aaee-c7a438169475'
+settings:
+  id: 'block_content:7f168778-f48c-4237-aaee-c7a438169475'
+  label: 'happy client saying section'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

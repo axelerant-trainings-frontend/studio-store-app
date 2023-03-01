@@ -1,0 +1,67 @@
+uuid: 94e7b67a-077d-42ee-a9bc-ea781665d86c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.happy_client_saying
+    - field.storage.block_content.field_happy_client_saying_block
+    - paragraphs.paragraphs_type.happy_client_saying
+  module:
+    - entity_reference_revisions
+id: block_content.happy_client_saying.field_happy_client_saying_block
+field_name: field_happy_client_saying_block
+entity_type: block_content
+bundle: happy_client_saying
+label: 'happy client saying block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      happy_client_saying: happy_client_saying
+    negate: 0
+    target_bundles_drag_drop:
+      brand_logos:
+        weight: 14
+        enabled: false
+      card:
+        weight: 15
+        enabled: false
+      client_logos:
+        weight: 16
+        enabled: false
+      college_gallery:
+        weight: 17
+        enabled: false
+      footer:
+        weight: 18
+        enabled: false
+      footer_links:
+        weight: 19
+        enabled: false
+      great_since_section:
+        weight: 20
+        enabled: false
+      happy_client_saying:
+        weight: 21
+        enabled: true
+      help_section:
+        weight: 22
+        enabled: false
+      hero_section:
+        weight: 23
+        enabled: false
+      newsletter:
+        weight: 24
+        enabled: false
+      slide:
+        weight: 25
+        enabled: false
+      slider:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

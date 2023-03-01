@@ -11,7 +11,7 @@ dependencies:
 id: newslettersection
 theme: studio_store
 region: content
-weight: -5
+weight: -8
 provider: null
 plugin: 'block_content:81665c6a-95ab-452c-8f58-2b281647fd51'
 settings:

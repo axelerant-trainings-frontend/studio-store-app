@@ -1,0 +1,23 @@
+uuid: b6685865-c335-4e0a-afb4-7ee9be90cc83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.brand_logos.field_logo
+    - paragraphs.paragraphs_type.brand_logos
+  module:
+    - image
+id: paragraph.brand_logos.default
+targetEntityType: paragraph
+bundle: brand_logos
+mode: default
+content:
+  field_logo:
+    type: image_url
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

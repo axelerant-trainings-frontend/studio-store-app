@@ -11,7 +11,7 @@ dependencies:
 id: sliderimagessection
 theme: studio_store
 region: content
-weight: -6
+weight: -9
 provider: null
 plugin: 'block_content:50752cfa-57eb-43e6-a6c6-bbe631aedf51'
 settings:

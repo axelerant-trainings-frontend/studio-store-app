@@ -13,7 +13,7 @@ _core:
 id: studio_store_main_menu
 theme: studio_store
 region: header
-weight: -1
+weight: -3
 provider: null
 plugin: 'system_menu_block:main'
 settings:

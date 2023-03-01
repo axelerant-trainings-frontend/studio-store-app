@@ -1,17 +1,17 @@
-uuid: 3c921400-0f82-4250-8f72-45d273ee39fe
+uuid: 23bb76bd-d588-4338-ba1a-ce7a422d4beb
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_client_logo
-    - paragraphs.paragraphs_type.client_logos
+    - field.storage.paragraph.field_logo
+    - paragraphs.paragraphs_type.brand_logos
   module:
     - image
-id: paragraph.client_logos.field_client_logo
-field_name: field_client_logo
+id: paragraph.brand_logos.field_logo
+field_name: field_logo
 entity_type: paragraph
-bundle: client_logos
-label: 'client logo'
+bundle: brand_logos
+label: logo
 description: ''
 required: false
 translatable: false

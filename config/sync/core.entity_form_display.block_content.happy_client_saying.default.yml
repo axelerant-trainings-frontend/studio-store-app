@@ -1,30 +1,20 @@
-uuid: 38cc8c95-856b-4408-aaf3-16ce86f03057
+uuid: 4afcf3d2-66b6-4972-9524-fd5ffdad2ef0
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.client_logos.field_body
-    - field.field.paragraph.client_logos.field_brand_logos
-    - field.field.paragraph.client_logos.field_title
-    - paragraphs.paragraphs_type.client_logos
+    - block_content.type.happy_client_saying
+    - field.field.block_content.happy_client_saying.field_happy_client_saying_block
   module:
     - paragraphs
-id: paragraph.client_logos.default
-targetEntityType: paragraph
-bundle: client_logos
+id: block_content.happy_client_saying.default
+targetEntityType: block_content
+bundle: happy_client_saying
 mode: default
 content:
-  field_body:
-    type: string_textfield
-    weight: 1
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_brand_logos:
+  field_happy_client_saying_block:
     type: paragraphs
-    weight: 3
+    weight: 26
     region: content
     settings:
       title: Paragraph
@@ -40,14 +30,12 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
-  field_title:
+  info:
     type: string_textfield
-    weight: 0
+    weight: -5
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  created: true
-  status: true
+hidden: {  }
