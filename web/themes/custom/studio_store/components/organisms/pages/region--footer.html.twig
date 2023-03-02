@@ -12,13 +12,15 @@
  * @see template_preprocess_region()
  */
 #}
+{# {{ attach_library('studio_store/global')}} #}
+
 {% if content %}
-	<div class='flex flex-col lg:flex-row footer-main'>
-		<div class='footer-details'>
+	<div class='footer-wrapper'>
+		<div class='footer-wrapper__details'>
 			{{ elements.footerdetails }}
 			{{ elements.footerlinks }}
 		</div>
-		<div class='footer-menu flex flex-col lg:flex-row justify-between'>
+		<div class='footer-wrapper__menu'>
 			{{ elements.whatwedo }}
 			{{ elements.company }}
 			{{ elements.support }}

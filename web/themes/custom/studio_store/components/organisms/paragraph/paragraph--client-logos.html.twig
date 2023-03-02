@@ -39,23 +39,17 @@
  */
 #}
 
-{% block paragraph %}
-	<div{{ attributes.addClass(classes) }}>
-		{% block content %}
-			<div class='flex clientsection items-center md:justify-between flex-col lg:flex-row mt-16 lg:mt-32  max-w-full'>
-				<div class='client-right'>
-					<div class='text-4xl mb-4 font-bold client-title'>
-						{{ content.field_title[0] }}
-					</div>
-					<div class='mb-10 client-body text-gray-600 leading-6'>
-						{{ content.field_body[0] }}
-					</div>
-				</div>
-				<div>
-					{{ content.field_brand_logos }}
-				</div>
-			</div>
-		{% endblock %}
-	</div>
-{% endblock paragraph %}
 
+<div class='client-section-wrapper'>
+	<div class='client-section-wrapper__details'>
+		<div class='client-section-wrapper__details-title'>
+			{{ content.field_title[0] }}
+		</div>
+		<div class='client-section-wrapper__details-body'>
+			{{ content.field_body[0] }}
+		</div>
+	</div>
+	<div>
+		{{ content.field_brand_logos }}
+	</div>
+</div>

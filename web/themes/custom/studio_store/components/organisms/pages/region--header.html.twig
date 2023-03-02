@@ -1,0 +1,30 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region <div>.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ */
+#}
+{{ attach_library('studio_store/global') }}
+
+{% if content %}
+	<header class='header-nav-section' role="banner">
+		<div class='header-nav-section__sub'>
+			{{ elements.studio_store_site_branding }}
+			{{ elements.studiomenu }}
+			<div class="header-nav-section__hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</div>
+		{{ page.header|without('studio_store_site_branding', 'studiomenu') }}
+	</header>
+{% endif %}

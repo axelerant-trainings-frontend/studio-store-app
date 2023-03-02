@@ -39,8 +39,8 @@
  */
 #}
 
-<div class='hero-section-wrapper flex flex-col lg:flex-row mx-0 my-5 w-full md:space-between md:my-0'>
-	<div class='herosection-details justify-center flex flex-col mb-20'>
+<div class='hero-section-wrapper'>
+	<div class='hero-section-wrapper__details'>
 		{{ content|without('field_hero_image') }}
 	</div>
 	{{ content.field_hero_image }}

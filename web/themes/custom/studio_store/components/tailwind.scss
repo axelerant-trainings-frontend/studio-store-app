@@ -373,21 +373,21 @@
 // }
 
 //navigation
-.navbar {
-  @media (max-width: 1023px) {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 10;
-    background-color: white;
-    li {
-      padding-top: 100px;
-      text-align: center;
-    }
-  }
-}
+// .navbar {
+//   @media (max-width: 1023px) {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100vw;
+//     height: 100vh;
+//     z-index: 10;
+//     background-color: white;
+//     li {
+//       padding-top: 100px;
+//       text-align: center;
+//     }
+//   }
+// }
 .hamburger.open {
   position: fixed;
   z-index: 999;
@@ -434,10 +434,7 @@
   }
 }
 .footer-main {
-  // height: 217px;
   height: fit-content;
-  // border-top: 1px solid;
-  // border-bottom: 1px solid;
   border-top: 1px solid #e4e4e4;
   border-bottom: 1px solid #e4e4e4;
   padding-top: 63px;

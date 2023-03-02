@@ -37,8 +37,9 @@
  */
 #}
 
-<div class='flex items-center brand-logos-container'>
+<div class='brand-logos-wrapper__logos'>
 	{% for item in items %}
-<img class='brand-logos w-1/2 md:w-full' src= {{ item.content['#markup'] }} />
+<img class='brand-logos-wrapper__logos-logo' src= {{ item.content['#markup'] }} />
 	{% endfor %}
 </div>
+

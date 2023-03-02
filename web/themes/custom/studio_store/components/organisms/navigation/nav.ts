@@ -1,5 +1,7 @@
 // alert('hello');
-const hamburger: HTMLElement | null = document.querySelector('.hamburger');
+const hamburger: HTMLElement | null = document.querySelector(
+  '.header-nav-section__hamburger',
+);
 const navbar: HTMLElement | null = document.querySelector('.navbar');
 const closeBtn: HTMLElement | null = document.querySelector('.close-btn');
 
