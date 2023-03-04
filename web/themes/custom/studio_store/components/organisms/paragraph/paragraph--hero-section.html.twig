@@ -38,19 +38,10 @@
  * @ingroup themeable
  */
 #}
+{# {{ attach_library('studio_store/hero-section') }} #}
 
-{%
-set classes = [
-    'paragraph',
-    'flex flex-col lg:flex-row mx-0 my-5 w-full md:space-between md:my-0',
-    'paragraph--type--' ~ paragraph.bundle|clean_class,
-    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
-    not paragraph.isPublished() ? 'paragraph--unpublished'
-  ]
-%}
-
-<div{{ attributes.addClass(classes) }}>
-	<div class='herosection-details justify-center flex flex-col mb-20'>
+<div class='hero-section-wrapper'>
+	<div class='hero-section-wrapper__details'>
 		{{ content|without('field_hero_image') }}
 	</div>
 	{{ content.field_hero_image }}

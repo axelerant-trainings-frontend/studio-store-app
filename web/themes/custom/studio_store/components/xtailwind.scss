@@ -15,7 +15,7 @@
   }
   video {
     width: 100%;
-    height: 372px;
+    height: auto;
     border-radius: 32px;
   }
 }
@@ -199,6 +199,9 @@
     margin-left: 120px;
     margin-right: 120px;
   }
+  @media (max-width: 767px) {
+    justify-self: normal;
+  }
   height: 387px;
   background-image: url('/themes/custom/studio_store/images/Rectangle32.png'),
     url('/themes/custom/studio_store/images/Dot1.png');
@@ -223,9 +226,32 @@
   position: relative;
   border-radius: 75px;
   margin-top: 30px;
+  @media (max-width: 767px) {
+    justify-self: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 60px;
+  }
 }
 .newsletter-sub-details {
   margin-left: 40px;
+  @media (max-width: 767px) {
+    margin-left: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 70px;
+    div {
+      color: white;
+    }
+  }
+  @media (max-width: 1440px) {
+    position: absolute;
+  }
+  @media (max-width: 1370px) {
+    top: 0;
+  }
 }
 
 ///newsletter new styling
@@ -276,7 +302,7 @@
     margin-left: 119px;
   }
 }
-.slidersection-details {
+.happy-client-saying {
   padding: 0 20px;
   @media (min-width: 1024px) {
     padding-left: 120px;
@@ -291,6 +317,9 @@
   }
 }
 .college {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-left: 66px;
 }
 .newsletter-section {
@@ -346,21 +375,21 @@
 // }
 
 //navigation
-.navbar {
-  @media (max-width: 1023px) {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 10;
-    background-color: white;
-    li {
-      padding-top: 100px;
-      text-align: center;
-    }
-  }
-}
+// .navbar {
+//   @media (max-width: 1023px) {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100vw;
+//     height: 100vh;
+//     z-index: 10;
+//     background-color: white;
+//     li {
+//       padding-top: 100px;
+//       text-align: center;
+//     }
+//   }
+// }
 .hamburger.open {
   position: fixed;
   z-index: 999;
@@ -407,10 +436,9 @@
   }
 }
 .footer-main {
-  // height: 217px;
   height: fit-content;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
   padding-top: 63px;
   padding-bottom: 29px;
   margin: 0 20px;
@@ -425,4 +453,167 @@
 .footer-desc {
   margin-top: 26px;
   margin-bottom: 40px;
+}
+// .brand-logos {
+//   margin-right: 60px;
+// }
+.brand-logos-container img {
+  margin-right: 20px;
+  @media (min-width: 1024px) {
+    margin-right: 60px;
+  }
+}
+
+.brand-logos-container img:last-child {
+  margin-right: 0px;
+  margin-top: 14px;
+}
+.client-body {
+  width: 318px;
+  @media (max-width: 1023px) {
+    width: 100%;
+  }
+}
+.client-title {
+  @media (max-width: 1023px) {
+    text-align: center;
+  }
+}
+.client-right {
+  @media (min-width: 1024px) {
+    margin-right: 120px;
+  }
+}
+//testing out------------------
+
+.form-email {
+  @media (max-width: 767px) {
+    width: 237px;
+    height: 52px;
+    top: 50px;
+    bottom: auto;
+    position: absolute;
+    left: -268px;
+    padding: 10px;
+  }
+}
+.form-email::placeholder {
+  @media (max-width: 767px) {
+    font-size: 10px;
+  }
+}
+.submit-btn {
+  @media (max-width: 767px) {
+    font-size: 10px;
+    padding: 5px;
+    height: 40px;
+    bottom: 0px;
+    top: 56px;
+    right: 38px;
+    width: 81px;
+  }
+}
+// .newsletter-sub-details {
+//   @media (max-width: 1440px) {
+//     position: absolute !important;
+//   }
+//   @media (max-width: 1370px) {
+//     top: 0;
+//   }
+// }
+
+.newsletter-sub-webform {
+  top: 160px;
+  @media (max-width: 1440px) {
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+  }
+  @media (max-width: 1370px) {
+    top: 185px;
+  }
+}
+
+//adding background to the website
+
+.hero-section-wrapper {
+  background-image: url('/themes/custom/studio_store/images/herodots.png'),
+    url('/themes/custom/studio_store/images/heroright.png'),
+    url('/themes/custom/studio_store/images/herocircle.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 71px, 1142px, 618px;
+  background-position-y: 356px, bottom, top;
+  background-size: 404px 154px, 178px, 129px;
+  @media (min-width: 1024px) {
+    height: 608px;
+  }
+}
+.hero-section-image {
+  height: auto;
+  @media (min-width: 1024px) {
+    height: 512px;
+  }
+}
+//cards help section
+.card-desc > div {
+  margin-top: 0;
+}
+#card-img0 img {
+  padding: 30px;
+  background-image: url('/themes/custom/studio_store/images/card1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#card-img1 img {
+  padding: 30px;
+  background-image: url('/themes/custom/studio_store/images/card2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#card-img2 img {
+  padding: 30px;
+  background-image: url('/themes/custom/studio_store/images/card3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#card-img3 img {
+  padding: 30px;
+  background-image: url('/themes/custom/studio_store/images/card4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.help-section-wrapper {
+  background-image: url('/themes/custom/studio_store/images/help1.png'),
+    url('/themes/custom/studio_store/images/help2.png'),
+    url('/themes/custom/studio_store/images/help3.png'),
+    url('/themes/custom/studio_store/images/helpdots.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 1047px 619px, 178px, 120px, 405px 154px;
+  background-position-y: center, 260px, 711px, bottom;
+  background-position-x: right, 80px, 1095px, left;
+  @media (min-width: 1024px) {
+    height: 867px;
+    margin-bottom: 146px;
+    margin-left: 82px;
+  }
+}
+.left-side {
+  background-image: url('/themes/custom/studio_store/images/dot1.png'),
+    url('/themes/custom/studio_store/images/help3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 196px 154px, 120px;
+  background-position-y: top, 257px;
+  background-position-x: right, left;
+}
+.great-since-wrapper {
+  background-image: url('/themes/custom/studio_store/images/great2.png'),
+    url('/themes/custom/studio_store/images/great1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 196px 154px, 120px;
+  background-position-y: top, bottom;
+  background-position-x: 750px, 582px;
 }

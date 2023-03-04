@@ -4,11 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.client_logos.field_body
-    - field.field.paragraph.client_logos.field_client_logo
+    - field.field.paragraph.client_logos.field_brand_logos
     - field.field.paragraph.client_logos.field_title
     - paragraphs.paragraphs_type.client_logos
   module:
-    - image
+    - entity_reference_revisions
 id: paragraph.client_logos.default
 targetEntityType: paragraph
 bundle: client_logos
@@ -22,16 +22,14 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  field_client_logo:
-    type: image
+  field_brand_logos:
+    type: entity_reference_revisions_entity_view
     label: hidden
     settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
+      view_mode: default
+      link: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   field_title:
     type: string

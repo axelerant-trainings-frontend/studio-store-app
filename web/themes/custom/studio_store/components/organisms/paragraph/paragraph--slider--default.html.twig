@@ -39,18 +39,10 @@
  */
 #}
 
-<div class='mt-24 mb-20 slider-container'>
-	<div class='flex flex-col items-center slidersection-details'>
-		<h1 class='heading text-4xl font-bold mb-8'>
-			{{ content.field_slider_section_title }}
-		</h1>
-		<div class='font-base text-gray-600 leading-6 mb-10 lg:mb-0'>
-			{{ content.field_slider_section_sub_heading }}
-		</div>
-	</div>
-	<div class='flex flex-col lg:flex-row justify-between slidersection-image'>
+<div class='slider-wrapper'>
+	<div class='slider-wrapper__sub'>
 		{{ content.field_slider }}
-    <div class='college flex flex-col items-center'>
+    <div class='slider-wrapper__sub-college'>
 		  {{ content.field_college_gallery }}
     </div>
 	</div>

@@ -1,0 +1,30 @@
+uuid: b2769d23-bc79-4558-86e0-5c1bf628cfc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.happy_client_saying.field_body_text
+    - field.field.paragraph.happy_client_saying.field_heading_text
+    - paragraphs.paragraphs_type.happy_client_saying
+id: paragraph.happy_client_saying.default
+targetEntityType: paragraph
+bundle: happy_client_saying
+mode: default
+content:
+  field_body_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_heading_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

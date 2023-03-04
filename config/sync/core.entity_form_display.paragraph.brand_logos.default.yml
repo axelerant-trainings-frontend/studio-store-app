@@ -1,0 +1,26 @@
+uuid: 940c8ddb-8568-47e0-9944-cf865f6df000
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.brand_logos.field_logo
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.brand_logos
+  module:
+    - image
+id: paragraph.brand_logos.default
+targetEntityType: paragraph
+bundle: brand_logos
+mode: default
+content:
+  field_logo:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

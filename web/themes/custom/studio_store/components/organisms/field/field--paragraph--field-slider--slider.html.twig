@@ -37,8 +37,8 @@
  */
 #}
 
-<div class='header2 lg:w-10/12'>
-	<div{{ attributes.addClass('slider-new') }}>
+<div class='slider-wrapper__sub-slide'>
+	<div class='slider-new'>
 		{% for item in items %}
 			<div{{ item.attributes }}>{{ item.content }}</div>
 		{% endfor %}

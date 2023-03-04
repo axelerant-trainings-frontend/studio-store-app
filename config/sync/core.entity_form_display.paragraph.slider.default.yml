@@ -5,8 +5,6 @@ dependencies:
   config:
     - field.field.paragraph.slider.field_college_gallery
     - field.field.paragraph.slider.field_slider
-    - field.field.paragraph.slider.field_slider_section_sub_heading
-    - field.field.paragraph.slider.field_slider_section_title
     - paragraphs.paragraphs_type.slider
   module:
     - paragraphs
@@ -50,22 +48,6 @@ content:
       features:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
-    third_party_settings: {  }
-  field_slider_section_sub_heading:
-    type: string_textfield
-    weight: 1
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_slider_section_title:
-    type: string_textfield
-    weight: 0
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
 hidden:
   created: true

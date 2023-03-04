@@ -15,8 +15,17 @@ regions:
 libraries:
   - core/normalize
   - studio_store/header
+  - studio_store/hero-section
+  - studio_store/client-section
+  - studio_store/help-section
+  - studio_store/great-since-section
+  - studio_store/happy-client-section
+  - studio_store/slider-section
+  - studio_store/newsletter-section
+  - studio_store/footer-section
+  - studio_store/copyright-section
   - studio_store/global
-  - studio_store/tailwind
+  # - studio_store/tailwind
   - studio_store/slick
 
 components:

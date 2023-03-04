@@ -9,7 +9,7 @@ _core:
 id: studio_store_primary_admin_actions
 theme: studio_store
 region: header
-weight: -10
+weight: -12
 provider: null
 plugin: local_actions_block
 settings:

@@ -39,14 +39,14 @@
  */
 #}
 
-<div class="mx-auto w-72 h-80 rounded-3xl overflow-hidden flex bg-white mb-10 shadow-lg pt-10">
-	<div class="px-6 flex flex-col space-y-6 text-center">
-		<div class=''>{{ content.field_card_image }}</div>
-		<div class="font-bold text-xl mb-2 w-60">
-			{{ content.field_card_title }}
-		</div>
-		<p class="text-gray-700 text-base w-60 leading-6">
-			{{ content.field_card_body }}
-		</p>
-	</div>
+<div class="card-wrapper">
+  <div class="card-wrapper__sub">
+    <div>{{ content.field_card_image }}</div>
+    <div class="card-wrapper__sub-title">
+      {{ content.field_card_title }}
+    </div>
+    <div class='card-wrapper__sub-desc'>
+      {{ content.field_card_body }}
+      </div>
+  </div>
 </div>

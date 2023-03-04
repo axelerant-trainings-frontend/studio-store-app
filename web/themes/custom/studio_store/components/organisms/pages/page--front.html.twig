@@ -43,33 +43,16 @@
  * @see html.html.twig
  */
 #}
-{# {{kpr(page.header)}} #}
 
+<div class="layout-container">
 
-<div class="layout-container max-w-screen-xl mx-auto">
-	<header class='header-nav-section my-5 md:my-10' role="banner">
-		<div class='flex justify-between'>
-			{{ page.header.studio_store_site_branding }}
-			{{ page.header.studiomenu }}
-			<div class="hamburger lg:hidden">
-				<span class="bar"></span>
-				<span class="bar"></span>
-				<span class="bar"></span>
-			</div>
-		</div>
-		{{ page.header|without('studio_store_site_branding', 'studiomenu') }}
-	</header>
-
+<header role="banner">
+    {{ page.header }}
+  </header>
 
   <main role="main">
     <div class="layout-content">
-      {{ page.content.herosectionblock }}
-      {{ page.content.clientsection }}
-      {{ page.content.card }}
-      {{ page.content.helpsectionwithcards }}
-      {{ page.content.greatsincesection }}
-      {{ page.content.sliderimagessection }}
-      {{ page.content.newslettersection }}
+		{{ page.content|without('system_main', 'messages') }}
     </div>
   </main>
 
@@ -78,7 +61,10 @@
       {{ page.footer }}
     </footer>
   {% endif %}
+
   {% if page.footer_second %}
     {{ page.footer_second }}
   {% endif %}
+
 </div>{# /.layout-container #}
+
