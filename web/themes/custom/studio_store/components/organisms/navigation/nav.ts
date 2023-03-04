@@ -7,10 +7,10 @@ const closeBtn: HTMLElement | null = document.querySelector('.close-btn');
 
 hamburger?.addEventListener('click', function (): void {
   hamburger.classList.toggle('open');
-  navbar?.classList.toggle('hidden');
+  navbar?.classList.toggle('active-nav');
 });
 
 closeBtn?.addEventListener('click', function (): void {
-  navbar?.classList.toggle('hidden');
+  navbar?.classList.toggle('active-nav');
   hamburger?.classList.toggle('open');
 });

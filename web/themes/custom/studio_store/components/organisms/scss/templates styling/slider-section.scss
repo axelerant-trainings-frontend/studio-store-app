@@ -1,0 +1,175 @@
+//slider section styling start
+
+.slider-wrapper {
+  margin-top: 96px;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  @media (min-width: 1024px) {
+    padding-right: 250px;
+  }
+}
+.slider-wrapper__sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
+}
+.slider-wrapper__sub-slide {
+  @media (min-width: 1024px) {
+    width: 83%;
+  }
+}
+
+.slide-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+  @media (min-width: 1024px) {
+    align-items: flex-start;
+  }
+}
+
+.slide-wrapper__image {
+  background-image: url('/themes/custom/studio_store/images/dot1.png'),
+    url('/themes/custom/studio_store/images/help3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 196px 154px, 120px;
+  background-position-y: top, 257px;
+  background-position-x: right, left;
+}
+.slide-wrapper__details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  @media (min-width: 768px) {
+    margin-top: -130px;
+  }
+  @media (min-width: 1024px) {
+    margin-top: 131px;
+  }
+}
+.slide-wrapper__details-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+.slide-wrapper__details-desc {
+  font-size: 16px;
+  line-height: 24px;
+  color: #565656;
+  @media (min-width: 1024px) {
+    width: 367px;
+  }
+}
+.slider-wrapper__sub-college {
+  padding-left: 66px;
+}
+//circle
+.college-gallery-wrapper {
+  background-image: url('/themes/custom/studio_store/images/Ellipse_86.png');
+  background-size: contain;
+  background-size: 184px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+  height: 355px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  @media (min-width: 768px) {
+    width: 300px;
+  }
+}
+
+.college-gallery-wrapper img {
+  object-fit: cover;
+  transform-origin: center;
+}
+//image college
+.college-gallery-wrapper img:nth-child(1) {
+  transform: translateX(120px) translateY(0px);
+}
+
+.college-gallery-wrapper img:nth-child(2) {
+  transform: translateY(100px);
+}
+
+.college-gallery-wrapper img:nth-child(3) {
+  transform: translateY(177px);
+}
+
+.college-gallery-wrapper img:nth-child(4) {
+  transform: translateX(64px) translateY(162px);
+}
+
+.college-gallery-wrapper img:nth-child(5) {
+  transform: translateX(74px) translateY(70px);
+}
+
+.college-gallery-wrapper img:nth-child(6) {
+  transform: translateX(-40px) translateY(-6px);
+}
+
+.college-gallery-wrapper img:nth-child(7) {
+  transform: translateX(-190px) translateY(-55px);
+}
+
+.college-gallery-wrapper img:nth-child(8) {
+  transform: translateX(-276px) translateY(71px);
+}
+
+//--slick slider dots--//
+.slick-dots {
+  position: absolute;
+  display: flex;
+  top: 450px;
+  left: 122px;
+
+  @media (min-width: 768px) {
+    top: 440px;
+    left: 298px;
+  }
+  @media (min-width: 1024px) {
+    left: 504px;
+    top: 282px;
+  }
+  li {
+    list-style: none;
+
+    button {
+      border-radius: 100%;
+      margin-right: 10px;
+      border: none;
+      height: 16px;
+      width: 16px;
+      text-indent: -9999em;
+    }
+  }
+  li.slick-active {
+    list-style: none;
+
+    button {
+      border-radius: 100%;
+      margin-right: 10px;
+      border: none;
+      height: 16px;
+      width: 16px;
+      text-indent: -9999em;
+      background-color: #2639ed;
+    }
+  }
+}
+//--slick slider dots--//
+//slider section styling end

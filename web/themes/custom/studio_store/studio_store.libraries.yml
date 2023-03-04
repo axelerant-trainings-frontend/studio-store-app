@@ -7,15 +7,60 @@ global:
     dist/components/organisms/slider/slider.js: {}
   dependencies:
     - studio_store/slick
-# header:
-#   css:
-#     theme:
-#       dist/components/organisms/scss/header.css: {}
 
-tailwind:
+header:
   css:
     theme:
-      dist/components/tailwind.css: {}
+      dist/components/organisms/scss/templates styling/header-section.css: {}
+
+hero-section:
+  css:
+    theme:
+      dist/components/organisms/scss/templates styling/hero-section.css: {}
+
+client-section:
+  css:
+    theme:
+      dist/components/organisms/scss/templates styling/client-section.css: {}
+
+help-section:
+  css:
+    theme:
+      dist/components/organisms/scss/templates styling/help-section.css: {}
+
+great-since-section:
+  css:
+    theme:
+      dist/components/organisms/scss/templates styling/great-since-section.css: {}
+
+happy-client-section:
+  css:
+    theme:
+      dist/components/organisms/scss/templates styling/happy-client-section.css: {}
+
+slider-section:
+  css:
+    theme:
+      dist/components/organisms/scss/templates styling/slider-section.css: {}
+
+newsletter-section:
+  css:
+    theme:
+      dist/components/organisms/scss/templates styling/newsletter-section.css: {}
+
+footer-section:
+  css:
+    theme:
+      dist/components/organisms/scss/templates styling/footer-section.css: {}
+
+copyright-section:
+  css:
+    theme:
+      dist/components/organisms/scss/templates styling/copyright-section.css: {}
+# tailwind:
+#   css:
+#     theme:
+#       dist/components/tailwind.css: {}
 
 slick:
   css:

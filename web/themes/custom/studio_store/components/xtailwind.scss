@@ -15,7 +15,6 @@
   }
   video {
     width: 100%;
-    // height: 372px;
     height: auto;
     border-radius: 32px;
   }
@@ -318,6 +317,9 @@
   }
 }
 .college {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-left: 66px;
 }
 .newsletter-section {
@@ -540,8 +542,8 @@
     url('/themes/custom/studio_store/images/herocircle.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: 60px, 1142px, 618px;
-  background-position-y: 310px, bottom, top;
+  background-position-x: 71px, 1142px, 618px;
+  background-position-y: 356px, bottom, top;
   background-size: 404px 154px, 178px, 129px;
   @media (min-width: 1024px) {
     height: 608px;

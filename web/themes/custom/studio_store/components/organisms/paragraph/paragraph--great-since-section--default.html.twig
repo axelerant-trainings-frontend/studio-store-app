@@ -39,13 +39,13 @@
  */
 #}
 
-<div class='great-since-wrapper great-since flex flex-col lg:flex-row items-center justify-between'>
+<div class='great-since-wrapper'>
 		{{ content.field_video }}
-	<div class='flex flex-col w-fit lg:w-1/2 great-since-right my-10'>
-		<div class='heading text-4xl font-bold mb-8 lg:w-96'>
+	<div class='great-since-wrapper__details'>
+		<div class='great-since-wrapper__details-title'>
 			{{ content.field_great_since_title }}
 		</div>
-		<div class='font-base text-gray-600 leading-6 mb-10 lg:mb-0'>
+		<div class='great-since-wrapper__details-desc'>
 			{{ content.field_great_since_desc }}
 		</div>
 	</div>

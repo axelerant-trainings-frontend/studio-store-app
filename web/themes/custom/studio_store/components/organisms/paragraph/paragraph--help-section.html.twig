@@ -40,16 +40,15 @@
 #}
 
 <div class='help-section-wrapper'>
-	<div class='help-section'>
-		<div class='flex flex-col header justify-between my-10 lg:flex-row'>
-			<div class='flex flex-col max-w-full lg:w-80 md:justify-center items-center'>
-				<div class='heading text-4xl font-bold mb-8'>
-					{{ content.field_heading }}
-				</div>
-				<div class='font-base text-gray-600 leading-6 mb-10 lg:mb-0'>
-					{{ content.field_desc }}
-				</div>
-			</div>
-			{{ content.field_cards }}
-		</div>
-	</div>
+  <div class='help-section-wrapper__sub'>
+    <div class='help-section-wrapper__sub__details'>
+      <div class='help-section-wrapper__sub__details-title'>
+        {{ content.field_heading }}
+      </div>
+      <div class='help-section-wrapper__sub__details-desc'>
+        {{ content.field_desc }}
+      </div>
+    </div>
+    {{ content.field_cards }}
+  </div>
+</div>
