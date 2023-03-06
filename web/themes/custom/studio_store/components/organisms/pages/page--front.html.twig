@@ -44,7 +44,7 @@
  */
 #}
 
-<div class="layout-container">
+{# <div class="layout-container">
 
 <header role="banner">
     {{ page.header }}
@@ -66,5 +66,28 @@
     {{ page.footer_second }}
   {% endif %}
 
-</div>{# /.layout-container #}
+</div>
+ #}
+<div class="layout-container" role="document">
 
+  <header role="banner">
+    {{ page.header }}
+  </header>
+
+  <main role="main" aria-label="main content">
+    <div class="layout-content">
+      {{ page.content|without('system_main', 'messages') }}
+    </div>
+  </main>
+
+  {% if page.footer %}
+    <footer role="contentinfo">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
+
+  {% if page.footer_second %}
+    {{ page.footer_second }}
+  {% endif %}
+
+</div>

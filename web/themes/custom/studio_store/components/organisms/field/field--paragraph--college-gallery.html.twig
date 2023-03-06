@@ -37,9 +37,9 @@
  */
 #}
 
-	<div class='college-gallery-wrapper'>
-		{% for key, item in items %}
-			<img id={{ 'roundedImage' ~ key }} src='{{ item.content }}'/>
-		{% endfor %}
-	</div>
+<div class='college-gallery-wrapper'>
+	{% for key, item in items %}
+		<img id={{ 'roundedImage' ~ key }} src='{{ item.content }}' alt='CollegeImage {{ key + 1 }}'/>
+	{% endfor %}
+</div>
 

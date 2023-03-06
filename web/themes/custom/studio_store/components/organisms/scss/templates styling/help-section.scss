@@ -45,7 +45,7 @@
 .help-section-wrapper__sub__details-title {
   margin-bottom: 40px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 40px;
   line-height: 49px;
   color: #000000;
@@ -112,16 +112,12 @@
   padding-right: 24px;
   display: flex;
   flex-direction: column;
-  // margin-top: 24px;
   text-align: center;
 }
 .card-wrapper__sub-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  // width: 240px;
-  // margin-top: 31px;
-  // margin-bottom: 27px;
   height: 60px;
   width: 167px;
   margin: 0 auto;
@@ -140,7 +136,7 @@
 .card-desc > div {
   margin-top: 0;
 }
-#card-img0 img {
+#card0 img {
   padding: 30px;
   margin-top: 39px;
   margin-bottom: 30px;
@@ -148,7 +144,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-#card-img1 img {
+#card1 img {
   padding: 30px;
   margin-top: 39px;
   margin-bottom: 30px;
@@ -156,7 +152,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-#card-img2 img {
+#card2 img {
   padding: 30px;
   margin-top: 39px;
   margin-bottom: 30px;
@@ -164,7 +160,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-#card-img3 img {
+#card3 img {
   padding: 30px;
   margin-top: 39px;
   margin-bottom: 30px;

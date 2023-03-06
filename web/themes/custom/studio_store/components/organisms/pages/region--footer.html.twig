@@ -1,5 +1,5 @@
 {#
-/**
+/*
  * @file
  * Theme override to display a region.
  *
@@ -14,7 +14,7 @@
 #}
 {# {{ attach_library('studio_store/global')}} #}
 
-{% if content %}
+{# {% if content %}
 	<div class='footer-wrapper'>
 		<div class='footer-wrapper__details'>
 			{{ elements.footerdetails }}
@@ -27,4 +27,19 @@
 			{{ elements.contact }}
 		</div>
 	</div>
+{% endif %} #}
+{% if content %}
+<footer class='footer-wrapper' role="contentinfo" aria-label="Footer">
+  <div class='footer-wrapper__details'>
+    {{ elements.footerdetails }}
+    {{ elements.footerlinks }}
+  </div>
+  <nav class='footer-wrapper__menu' aria-label="Footer Menu">
+    {{ elements.whatwedo }}
+    {{ elements.company }}
+    {{ elements.support }}
+    {{ elements.contact }}
+  </nav>
+</footer>
 {% endif %}
+

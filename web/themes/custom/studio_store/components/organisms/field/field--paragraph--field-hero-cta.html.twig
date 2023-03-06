@@ -37,6 +37,9 @@
  */
 #}
 
-<div class='hero-section-wrapper__details-cta'>
-	{{ items[0].content }}
+<div class='hero-section-wrapper__details-cta' aria-label="Call to Action">
+{% for item in items %}
+	{{ item.content }}
+{% endfor %}
 </div>
+

@@ -24,6 +24,13 @@
 }
 
 .slide-wrapper {
+  background-image: url('/themes/custom/studio_store/images/dot1.png'),
+    url('/themes/custom/studio_store/images/help3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 196px 154px, 120px;
+  background-position-y: top, 257px;
+  background-position-x: 280px, left;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,15 +42,6 @@
   }
 }
 
-.slide-wrapper__image {
-  background-image: url('/themes/custom/studio_store/images/dot1.png'),
-    url('/themes/custom/studio_store/images/help3.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 196px 154px, 120px;
-  background-position-y: top, 257px;
-  background-position-x: right, left;
-}
 .slide-wrapper__details {
   display: flex;
   flex-direction: column;
@@ -57,6 +55,7 @@
   }
 }
 .slide-wrapper__details-title {
+  margin-bottom: 21px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
