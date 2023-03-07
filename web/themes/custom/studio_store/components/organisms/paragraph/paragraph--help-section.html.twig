@@ -42,13 +42,14 @@
 <div class='help-section-wrapper'>
   <div class='help-section-wrapper__sub'>
     <div class='help-section-wrapper__sub__details'>
-      <div class='help-section-wrapper__sub__details-title'>
+      <h1 class='help-section-wrapper__sub__details-title' aria-label="Help section title">
         {{ content.field_heading }}
-      </div>
-      <div class='help-section-wrapper__sub__details-desc'>
+      </h1>
+      <p class='help-section-wrapper__sub__details-desc' aria-label="Help section description">
         {{ content.field_desc }}
-      </div>
+      </p>
     </div>
     {{ content.field_cards }}
   </div>
 </div>
+

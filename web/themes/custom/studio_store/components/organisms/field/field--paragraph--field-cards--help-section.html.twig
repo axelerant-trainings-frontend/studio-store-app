@@ -38,21 +38,26 @@
 #}
 
 <div class='cards-wrapper'>
-  <div class="cards-wrapper__col1">
-    {% for key, item in items %}
-      {% if key < 2 %}
-        <div id={{ 'card-img' ~ key }} class='g1-first flex'>
-          {{ item.content }}</div>
-      {% endif %}
-    {% endfor %}
-  </div>
-  <div class="cards-wrapper__col2" class='g2-2nd flex'>
-    {% for key, item in items %}
-      {% if key >= 2 %}
-      <div id={{ 'card-img' ~ key }}>
-          {{ item.content }}</div>
-      {% endif %}
-    {% endfor %}
-  </div>
+	<div class="cards-wrapper__col1" role="list">
+		{% for key, item in items %}
+			{% if key < 2 %}
+				<div class="cards-wrapper__col1-card-container"  id={{ 'card' ~ key }} role="listitem">
+					<div role="img" aria-label="card">{{ item.content }}</div>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+	<div class="cards-wrapper__col2"role="list">
+		{% for key, item in items %}
+			{% if key >= 2 %}
+				<div class="cards-wrapper__col2-card-container"  id={{ 'card' ~ key }} role="listitem">
+					<div role="img" aria-label="card">{{ item.content }}</div>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
 </div>
+
+
+
 

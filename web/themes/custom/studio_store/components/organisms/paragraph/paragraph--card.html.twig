@@ -40,13 +40,14 @@
 #}
 
 <div class="card-wrapper">
-  <div class="card-wrapper__sub">
-    <div>{{ content.field_card_image }}</div>
-    <div class="card-wrapper__sub-title">
-      {{ content.field_card_title }}
+	<div class="card-wrapper__sub">
+<div class="card-wrapper__sub-imgContainer">
+    {{ content.field_card_image }}
     </div>
-    <div class='card-wrapper__sub-desc'>
-      {{ content.field_card_body }}
-      </div>
-  </div>
+		<h2 class="card-wrapper__sub-title">{{ content.field_card_title }}</h2>
+		<p class='card-wrapper__sub-desc'>
+			{{ content.field_card_body }}
+		</p>
+	</div>
 </div>
+

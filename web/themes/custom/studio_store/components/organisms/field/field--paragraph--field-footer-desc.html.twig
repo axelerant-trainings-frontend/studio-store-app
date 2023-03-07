@@ -38,5 +38,6 @@
 #}
 
 {% for item in items %}
-	<div{{ attributes.addClass('footer-wrapper__details-desc') }}>{{ item.content }}</div>
+	<div{{ attributes.addClass('footer-wrapper__details-desc') }} aria-label="footer description">{{ item.content }}</div>
 {% endfor %}
+

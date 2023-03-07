@@ -39,17 +39,19 @@
  */
 #}
 
-
 <div class='client-section-wrapper'>
 	<div class='client-section-wrapper__details'>
-		<div class='client-section-wrapper__details-title'>
-			{{ content.field_title[0] }}
-		</div>
-		<div class='client-section-wrapper__details-body'>
-			{{ content.field_body[0] }}
-		</div>
+<div class='client-section-wrapper__details-title' aria-label="Client section title">
+	{{ content.field_title[0] }}
+</div>
+<div class='client-section-wrapper__details-body' aria-label="Client section description">
+	{{ content.field_body[0] }}
+</div>
 	</div>
 	<div>
 		{{ content.field_brand_logos }}
 	</div>
 </div>
+
+
+

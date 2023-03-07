@@ -39,8 +39,9 @@
 
 <div class='slider-wrapper__sub-slide'>
 	<div class='slider-new'>
-		{% for item in items %}
-			<div{{ item.attributes }}>{{ item.content }}</div>
+		{% for key, item in items %}
+			<div aria-labelledby="slider-item-{{ key }}">{{ item.content }}</div>
 		{% endfor %}
 	</div>
 </div>
+

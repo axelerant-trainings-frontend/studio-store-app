@@ -33,7 +33,6 @@
   background-position-y: bottom, top;
   position: relative;
   border-radius: 75px;
-  margin-top: 30px;
   @media (max-width: 768px) {
     justify-self: center;
     align-items: center;
@@ -78,13 +77,14 @@
 }
 
 .newsletter-wrapper__sub__webform {
-  top: 160px;
+  // top: 160px;
+  top: 140px;
+  right: 0;
+  position: absolute;
   @media (max-width: 1440px) {
     position: absolute;
     right: 0;
     bottom: 70px;
-  }
-  @media (max-width: 1370px) {
     top: 185px;
   }
 }

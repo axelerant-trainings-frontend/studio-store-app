@@ -14,7 +14,7 @@
 #}
 {# {{ attach_library('studio_store/header') }} #}
 
-{% if content %}
+{# {% if content %}
 	<header class='header-nav-section' role="banner">
 		<div class='header-nav-section__sub'>
 			{{ elements.studio_store_site_branding }}
@@ -27,4 +27,19 @@
 		</div>
 		{{ page.header|without('studio_store_site_branding', 'studiomenu') }}
 	</header>
+{% endif %} #}
+{% if content %}
+	<header class='header-nav-section' role="banner">
+		<div class='header-nav-section__sub' role="navigation" aria-label="Main navigation">
+			{{ elements.studio_store_site_branding }}
+			{{ elements.studiomenu }}
+			<div class="header-nav-section__hamburger" aria-label="Menu" aria-controls="navigation-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</div>
+			{{ page.header|without('studio_store_site_branding', 'studiomenu') }}
+	</header>
 {% endif %}
+

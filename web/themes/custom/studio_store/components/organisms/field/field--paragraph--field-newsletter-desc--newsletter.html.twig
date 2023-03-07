@@ -37,10 +37,6 @@
  */
 #}
 
-<div class='brand-logos-wrapper__logos'>
-	{% for item in items %}
-		<img class='brand-logos-wrapper__logos-logo' src="{{ item.content['#markup'] }}" alt="brand logo"/>
-	{% endfor %}
-</div>
-
-
+{% for item in items %}
+	{{ item.content }}
+{% endfor %}

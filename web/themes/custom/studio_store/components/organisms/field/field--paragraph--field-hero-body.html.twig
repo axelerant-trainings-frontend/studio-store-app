@@ -37,6 +37,10 @@
  */
 #}
 
-<div class='hero-section-wrapper__details-body'>
-	{{ items[0].content }}
-</div>
+<p class='hero-section-wrapper__details-body' role='region' aria-label='Hero section details'>
+{% for item in items %}
+	{{ item.content }}
+{% endfor %}
+</p>
+
+
