@@ -77,11 +77,10 @@
 }
 
 .newsletter-wrapper__sub__webform {
-  // top: 160px;
   top: 140px;
   right: 0;
   position: absolute;
-  @media (max-width: 1440px) {
+  @media (max-width: 1300px) {
     position: absolute;
     right: 0;
     bottom: 70px;
