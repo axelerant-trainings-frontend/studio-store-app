@@ -39,10 +39,8 @@
  */
 #}
 
-{% for key, item in 0..content.field_social_icon|length - 1 %}
-	{% if key < 3 %}
-		<a href='{{ content.field_social_link[item]['#url'] }}' aria-label='footer link'>
-<img class='footer-wrapper__details-links' src='{{ content.field_social_icon[item]['#markup'] }}' alt='footer link image'/>
-		</a>
-	{% endif %}
+{% for key, item in key..content.field_social_icon|length - 1 %}
+  {% if key < 3 %}
+    <a href='{{ content.field_social_link[item]['#url_title'] }}' aria-label='footer link' ><img class='footer-wrapper__details-links' src='{{ content.field_social_icon[item]['#markup'] }}'  alt='footer link image'/></a>
+  {% endif %}
 {% endfor %}

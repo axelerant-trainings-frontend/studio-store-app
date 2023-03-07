@@ -16,7 +16,10 @@
 .header-nav-section__sub {
   display: flex;
   justify-content: space-between;
+  // @media (min-width: 768px) {
+  //   display: none;
 }
+
 //hamburger menu
 .header-nav-section__hamburger {
   display: block;
@@ -66,9 +69,6 @@
 //navbar mobile menu
 .active-nav {
   display: none;
-  @media (min-width: 1024px) {
-    display: flex;
-  }
 }
 .navbar {
   list-style-type: none;
@@ -100,6 +100,9 @@
   li a {
     color: #000;
     text-decoration: none;
+  }
+  @media (min-width: 1024px) {
+    display: flex;
   }
 }
 
