@@ -1,0 +1,91 @@
+uuid: e603d2ba-5a5a-4a1e-be70-4e78f8c338d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.custom_page
+    - paragraphs.paragraphs_type.brand_logos
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.client_logos
+    - paragraphs.paragraphs_type.college_gallery
+    - paragraphs.paragraphs_type.footer
+    - paragraphs.paragraphs_type.footer_links
+    - paragraphs.paragraphs_type.great_since_section
+    - paragraphs.paragraphs_type.happy_client_saying
+    - paragraphs.paragraphs_type.help_section
+    - paragraphs.paragraphs_type.hero_section
+    - paragraphs.paragraphs_type.newsletter
+    - paragraphs.paragraphs_type.slide
+    - paragraphs.paragraphs_type.slider
+  module:
+    - entity_reference_revisions
+id: node.custom_page.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: custom_page
+label: paragraphs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      hero_section: hero_section
+      client_logos: client_logos
+      help_section: help_section
+      great_since_section: great_since_section
+      happy_client_saying: happy_client_saying
+      brand_logos: brand_logos
+      slide: slide
+      slider: slider
+      college_gallery: college_gallery
+      newsletter: newsletter
+      card: card
+      footer: footer
+      footer_links: footer_links
+    negate: 0
+    target_bundles_drag_drop:
+      brand_logos:
+        weight: -22
+        enabled: true
+      card:
+        weight: -17
+        enabled: true
+      client_logos:
+        weight: -26
+        enabled: true
+      college_gallery:
+        weight: -19
+        enabled: true
+      footer:
+        weight: -16
+        enabled: true
+      footer_links:
+        weight: -15
+        enabled: true
+      great_since_section:
+        weight: -24
+        enabled: true
+      happy_client_saying:
+        weight: -23
+        enabled: true
+      help_section:
+        weight: -25
+        enabled: true
+      hero_section:
+        weight: -27
+        enabled: true
+      newsletter:
+        weight: -18
+        enabled: true
+      slide:
+        weight: -21
+        enabled: true
+      slider:
+        weight: -20
+        enabled: true
+field_type: entity_reference_revisions

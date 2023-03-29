@@ -1,11 +1,12 @@
 uuid: 1e546988-3898-4624-9ff5-45697627c2b5
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:slider_block:50752cfa-57eb-43e6-a6c6-bbe631aedf51'
   module:
     - block_content
+    - system
   theme:
     - studio_store
 id: sliderimagessection
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

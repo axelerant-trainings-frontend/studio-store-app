@@ -1,11 +1,12 @@
 uuid: 9b9de26e-0256-4bf4-a01b-44ccbeb08819
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:newsletter:81665c6a-95ab-452c-8f58-2b281647fd51'
   module:
     - block_content
+    - system
   theme:
     - studio_store
 id: newslettersection
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

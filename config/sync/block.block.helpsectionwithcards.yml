@@ -1,11 +1,12 @@
 uuid: 380da1d8-f7be-4fd6-b594-d08d08f658b1
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:help_sec_block:0337e631-27b7-453e-9176-b8e0c5095404'
   module:
     - block_content
+    - system
   theme:
     - studio_store
 id: helpsectionwithcards
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

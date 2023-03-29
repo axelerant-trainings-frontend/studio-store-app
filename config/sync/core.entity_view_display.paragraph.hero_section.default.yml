@@ -40,7 +40,7 @@ content:
     type: image_url
     label: hidden
     settings:
-      image_style: ''
+      image_style: custom
     third_party_settings: {  }
     weight: 2
     region: content
