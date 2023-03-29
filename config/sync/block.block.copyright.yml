@@ -11,7 +11,7 @@ dependencies:
 id: copyright
 theme: studio_store
 region: footer_second
-weight: -11
+weight: -14
 provider: null
 plugin: 'block_content:4457ac56-951d-417a-9202-ff52e51c69cd'
 settings:

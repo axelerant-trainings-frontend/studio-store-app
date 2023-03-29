@@ -1,8 +1,7 @@
 //slider section styling start
 
 .slider-wrapper {
-  margin-top: 96px;
-  margin-bottom: 80px;
+  margin-bottom: 92px;
   padding-left: 20px;
   padding-right: 20px;
   @media (min-width: 1024px) {
@@ -66,9 +65,6 @@
   font-size: 16px;
   line-height: 24px;
   color: #565656;
-  @media (min-width: 1024px) {
-    width: 367px;
-  }
 }
 .slider-wrapper__sub-college {
   padding-left: 66px;
@@ -142,33 +138,34 @@
   }
   @media (min-width: 1024px) {
     left: 504px;
-    top: 282px;
+    top: 300px;
   }
   li {
     list-style: none;
-
-    button {
-      border-radius: 100%;
-      margin-right: 10px;
-      border: none;
-      height: 16px;
-      width: 16px;
-      text-indent: -9999em;
-    }
   }
-  li.slick-active {
-    list-style: none;
-
-    button {
-      border-radius: 100%;
-      margin-right: 10px;
-      border: none;
-      height: 16px;
-      width: 16px;
-      text-indent: -9999em;
-      background-color: #2639ed;
-    }
+  button {
+    border-radius: 100%;
+    margin-right: 26px;
+    border: none;
+    height: 16px;
+    width: 16px;
+    text-indent: -9999em;
   }
 }
+li.slick-active {
+  list-style: none;
+
+  button {
+    border-radius: 100%;
+
+    margin-right: 26px;
+    border: none;
+    height: 16px;
+    width: 16px;
+    text-indent: -9999em;
+    background-color: #2639ed;
+  }
+}
+
 //--slick slider dots--//
 //slider section styling end

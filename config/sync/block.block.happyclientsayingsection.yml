@@ -1,11 +1,12 @@
 uuid: 43f52f2e-0cc8-443c-a664-176db6fb227a
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:happy_client_saying:7f168778-f48c-4237-aaee-c7a438169475'
   module:
     - block_content
+    - system
   theme:
     - studio_store
 id: happyclientsayingsection
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

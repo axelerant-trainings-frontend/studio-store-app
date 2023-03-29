@@ -16,6 +16,7 @@
     padding-right: 120px;
     flex-direction: row;
     margin-top: 128px;
+    margin-bottom: 94px;
   }
 }
 .client-section-wrapper__details {
@@ -35,7 +36,7 @@
 }
 .client-section-wrapper__details-body {
   width: 318px;
-  margin-bottom: 40px;
+
   line-height: 24px;
 
   color: #757575;
@@ -60,6 +61,7 @@
 .brand-logos-wrapper__logos {
   display: flex;
   align-items: center;
+  margin-top: 40px;
 }
 .brand-logos-wrapper__logos-logo {
   width: 50%;

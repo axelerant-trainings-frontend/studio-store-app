@@ -11,7 +11,7 @@ dependencies:
 id: footerlinks
 theme: studio_store
 region: footer
-weight: -13
+weight: -14
 provider: null
 plugin: 'block_content:0f5b6e79-f9c4-421a-9365-96e3194ffc38'
 settings:
