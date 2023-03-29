@@ -2,15 +2,18 @@
 .newsletter-wrapper {
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 160px;
+  margin-bottom: 40px;
   @media (min-width: 1024px) {
     margin-left: 120px;
     margin-right: 120px;
+    margin-bottom: 107px;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     justify-self: normal;
+    height: 345px;
   }
   height: 387px;
+
   background-image: url('/themes/custom/studio_store/images/Rectangle32.png'),
     url('/themes/custom/studio_store/images/Dot1.png');
   background-repeat: no-repeat;
