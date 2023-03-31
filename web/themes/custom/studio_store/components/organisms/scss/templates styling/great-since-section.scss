@@ -7,17 +7,19 @@
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 40px;
   @media (min-width: 1024px) {
     flex-direction: row;
     padding-left: 120px;
     padding-right: 120px;
+    height: 436px;
   }
   background-image: url('/themes/custom/studio_store/images/great2.png'),
     url('/themes/custom/studio_store/images/great1.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 178px, 120px;
-  background-position-y: 65px, bottom;
+  background-position-y: 100px, bottom;
   background-position-x: 750px, 582px;
 }
 
@@ -25,33 +27,30 @@
   display: flex;
   flex-direction: column;
   width: fit-content;
-  margin-top: 40px;
-  margin-bottom: 40px;
-
   @media (min-width: 1024px) {
     margin-left: 119px;
     width: 50%;
   }
 }
 .great-since-wrapper__details-title {
-  font-size: 36px;
-  line-height: 40px;
-  font-weight: 700;
   margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  line-height: 49px;
+  color: #000000;
   @media (min-width: 1024px) {
-    width: 384px;
+    width: 468px;
   }
 }
 .great-since-wrapper__details-desc {
-  margin-bottom: 40px;
-  width: 100%;
-  height: 104px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   color: #565656;
-
   @media (min-width: 1024px) {
     margin-bottom: 0px;
   }
@@ -59,7 +58,6 @@
 .great-since-wrapper__details-video {
   @media (min-width: 1024px) {
     width: 550px;
-    height: 372px;
   }
   video {
     width: 100%;
