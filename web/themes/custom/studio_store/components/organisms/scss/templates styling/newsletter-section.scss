@@ -2,6 +2,7 @@
 .newsletter-wrapper {
   margin-left: 20px;
   margin-right: 20px;
+  height: 387px;
   margin-bottom: 40px;
   @media (min-width: 1024px) {
     margin-left: 120px;
@@ -10,15 +11,12 @@
   }
   @media (min-width: 768px) {
     justify-self: normal;
-    height: 345px;
   }
-  height: 387px;
-
   background-image: url('/themes/custom/studio_store/images/Rectangle32.png'),
     url('/themes/custom/studio_store/images/Dot1.png');
   background-repeat: no-repeat;
   background-position-x: left, right;
-  background-position-y: bottom, top;
+  background-position-y: 185px, top;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,7 +42,7 @@
   }
 }
 .newsletter-wrapper__sub__details {
-  margin-left: 40px;
+  margin-left: 92px;
   @media (max-width: 767px) {
     margin-left: 0;
     color: white;
@@ -65,14 +63,23 @@
   }
 }
 .newsletter-wrapper__sub__details-title {
-  font-size: 36px;
-  line-height: 40px;
-  font-weight: 700;
-  margin-bottom: 32px;
+  margin-bottom: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #fff;
+  @media (min-width: 768px) {
+    color: #000000;
+  }
 }
 .newsletter-wrapper__sub__details-body {
+  font-family: 'Averta Demo PE Cutted Demo';
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 160%;
+  color: #757575;
   margin-bottom: 40px;
   @media (min-width: 1024px) {
     margin-bottom: 0px;
@@ -148,5 +155,4 @@
     width: 81px;
   }
 }
-
 //newsletter section styling end here

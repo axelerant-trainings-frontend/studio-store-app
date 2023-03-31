@@ -23,13 +23,13 @@
 }
 
 .slide-wrapper {
-  background-image: url('/themes/custom/studio_store/images/dot1.png'),
+  background-image: url('/themes/custom/studio_store/images/dotbrown.png'),
     url('/themes/custom/studio_store/images/help3.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 196px 154px, 120px;
   background-position-y: top, 257px;
-  background-position-x: 280px, left;
+  background-position-x: 270px, left;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,9 +62,14 @@
   color: #000000;
 }
 .slide-wrapper__details-desc {
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 160%;
   color: #565656;
+  @media (min-width: 1024px) {
+    width: 412px;
+  }
 }
 .slider-wrapper__sub-college {
   padding-left: 66px;
@@ -166,6 +171,8 @@ li.slick-active {
     background-color: #2639ed;
   }
 }
-
+.slider-wrapper__image {
+  margin-top: 10px;
+}
 //--slick slider dots--//
 //slider section styling end
